@@ -1,0 +1,142 @@
+body {
+ font-family: 'Cuprum', sans-serif;
+}
+
+nav {
+ background-color: #46a1d6;
+ .header-brand {
+ 	display: block;
+ 	font-size: 28px;
+ }
+}
+
+.section {
+ display: table;
+ background: url(../img/mountains.jpeg) center no-repeat fixed;
+ height: 100%;
+ position: relative;
+ width: 100%;
+ background-size: cover;
+ padding-bottom: 200px;
+ &-title {
+ 	margin-top: 230px;
+ 	font-size: 88px;
+    font-weight: 900;
+ }
+ &-description {
+ 	font-size: 28px;
+ }
+ 
+  p {
+  	text-align: center;
+  }
+  &-arrow a{
+  	transition: 0.6s ease;
+  	font-size: 60px;
+  &:hover {
+    transition: 0.6s ease;
+    
+    }
+  }
+}
+
+.content {
+	margin-top: 200px;
+	p {
+		text-align: center;
+	}
+	&-games {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 20px;
+ }
+ &-img {
+ 	display: block;
+ 	text-align: center;
+   
+ 	margin-top: 100px;
+ 	padding: 0;
+ 	height: 150px;
+ 	width: 150px;
+ 	transition: 0.6s ease; 
+ &:hover {
+ 	transition: 0.6s ease;
+    transform: scale(1.5) rotate(20deg);
+    cursor: pointer;
+    }
+  }
+  &-text {
+    font-size: 24px;
+  }
+}
+
+footer {
+ margin-top: 400px;
+ height: 200px;
+ background-color: black;
+ h1 {
+ 	display: block;
+ 	text-align: center;
+ 	padding-top: 15px;
+ 	
+ }
+ span a{
+ 	display: inline-block;
+ 	
+ }
+
+.icons-text {
+  color: lime;
+  font-size: 40px;
+}
+
+ .footer-link {
+     transition: 0.6s ease;
+ 	color: gray;
+ 	margin-left: 20px;
+ &:hover {
+    transition: 0.6s ease;
+ 	color: #eee;
+ 	text-decoration: none;
+    }
+  }
+  .footer-copyright {
+    display: block;
+    text-align: center;
+    transition: 0.6s ease;
+    margin-top: 10px;
+  	color: gray;
+  	&:hover {
+    transition: 0.6s ease; 
+  	 text-decoration: none;
+  	 color: white;
+  	}
+  }
+}
+
+.footer {
+  display: block;
+}
+
+.footer-items {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 436px) {
+ .section-title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 312px) {
+  .section-title {
+    font-size: 50px;
+  }
+}

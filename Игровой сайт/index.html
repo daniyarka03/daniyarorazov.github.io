@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	 <script src="js/WOW.js"></script>
+    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+    	 new WOW().init();
+
+    </script>
+	<title>GamerInfo/Свободная энциклопедия по играм</title>
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+	<a href="#" class="navbar-brand header-brand"><i class="fa fa-eercast" aria-hidden="true"></i> GamerInfo</a>
+</nav>    		
+
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-center">
+                
+              <div class="col-lg-8">
+              	<h1 class="wow section-title text-center slideInLeft">G<span><i class="fa fa-eercast" aria-hidden="true"></i></span>merInfo</h1>
+              </div>
+              
+			</div>
+			<div class="row justify-content-lg-center">
+			  <div class="col-lg-auto">
+			  	<p class="wow slideInRight section-description"><i class="fa fa-book" aria-hidden="true"></i> Свободная энциклопедия по играм! <i class="fa fa-gamepad" aria-hidden="true"></i></p>
+			  </div>
+			</div>
+			<div class="row justify-content-lg-center">
+			  <div class="col-lg-auto">
+			  	<p class="section-arrow">
+			  		<a href="javascript://0" onclick="slowScroll ('#more')" class="animated fadeIn">
+			  			<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			  		</a>
+			  	</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+    <div class="content" id="more" align="center">
+    	<div class="row justify-content-lg-center text-center">
+			  <div class="col-lg-4">
+			  	<p class="content-games wow"  data-wow-delay="1s">Выберите игру</p>
+			  </div>
+			</div>
+			<div class="row justify-content-lg-center">
+			  <div class="col-lg-4 block-icons wow" data-wow-duration="4s" data-wow-delay="1s"> 
+			  	<a href="javascript://0" id="icons-btn" class="btn-icons wow bounce"><img src="img/cs-icon.png" alt="" class="content-img"></a>
+			  	<p class="content-text">CS GO</p>
+			  </div>
+			  <div class="col-lg-4 block-icons wow" data-wow-duration="3s" data-wow-delay="1s">
+			  	<a href="javascript://0" id="icons-btn" class="btn-icons"><img src="img/dota2-icon.png" alt="" class="content-img"></a>
+			  	<p class="content-text">Dota 2</p>
+			  </div>
+			  <div class="col-lg-4 block-icons wow" data-wow-duration="2s" data-wow-delay="1s">
+			  	<a href="javascript://0" id="icons-btn" class="btn-icons item1"><img src="img/minecraft3-icon.png" alt="" class="content-img"></a>
+			  	<p class="content-text">Minecraft</p>
+			  </div>
+			</div>
+    </div>
+
+
+
+
+	<footer>
+	 <div class="container">
+	 	<div class="row justify-content-lg-center footer">
+	 		<h1 class="footer-title text-center"><i class="fa fa-eercast" aria-hidden="true"></i> GamerInfo</h1>
+	 		</div>
+	 		<div class="row justify-content-lg-center footer-items"> 
+	 		  <span><a href="javascript://0" class="footer-link"> CS GO </a></span>
+	 		  <span><a href="javascript://0" class="footer-link"> Dota 2 </a></span>
+	 		  <span><a href="javascript://0" class="footer-link"> Minecraft </a></span>
+	 	</div>
+	 	    <div class="justify-content-lg-center">
+              <span><a href="#" class="footer-copyright">&copy; Copyright 2018</a></span>
+	 	    </div>
+	 </div>
+	</footer>
+	
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script>
+  	 new WOW().init();
+
+  	$(document).ready(function(){
+  	  $(".btn-icons, .footer-link").on("click", function(){
+  	  	swal({
+          title: "Error",
+          text: "К сожалению страница не готова!",
+          icon: "warning",
+        });
+  	  });
+  	});
+
+  
+
+  </script>
+</body>
+</html>
