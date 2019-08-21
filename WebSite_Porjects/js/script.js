@@ -1,0 +1,1 @@
+$('#btn-download').tooltip('show');
