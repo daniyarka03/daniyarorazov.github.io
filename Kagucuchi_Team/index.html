@@ -285,10 +285,10 @@
 <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script src="script/script.js"></script>
 <script>
-	$(document).ready(function(){
-    $(".loader").delay(100).remove();    
+	$(window).load(function() {
+    $(".loader").delay(100).fadeOut().remove();    
 
-	});
+});
 </script>
 </body>
 </html>
