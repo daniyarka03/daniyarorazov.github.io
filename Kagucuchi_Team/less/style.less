@@ -1,5 +1,32 @@
 //Fonts
-@import url('https://fonts.googleapis.com/css?family=Baumans|Ubuntu:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Baumans|Ubuntu:400,700');
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu.eot');
+    src: url('../font/Ubuntu.eot?#iefix') format('embedded-opentype'),
+        url('../font/Ubuntu.woff2') format('woff2'),
+        url('../font/Ubuntu.woff') format('woff'),
+        url('../font/Ubuntu.ttf') format('truetype'),
+        url('../font/Ubuntu.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baumans';
+    src: url('../font/Baumans-Regular.eot');
+    src: url('../font/Baumans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Baumans-Regular.woff2') format('woff2'),
+        url('../font/Baumans-Regular.woff') format('woff'),
+        url('../font/Baumans-Regular.ttf') format('truetype'),
+        url('../font/Baumans-Regular.svg#Baumans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 //Variables
 @white: #ffffff;
 @red: #FF365A;
@@ -807,7 +834,8 @@ body {
 
 @media (max-width: 600px) {
 	.section-about {
-	background: url(../img/header-bg-two-min.png) center no-repeat;
+	// background: url(../img/header-bg-two-min.png) center no-repeat;
+	background: #000;
 	height: 900px;
 	padding-top: 120px;
 	padding-left: 80px;
