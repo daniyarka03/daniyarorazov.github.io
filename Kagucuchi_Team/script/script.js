@@ -3,6 +3,12 @@ $(document).ready(function(){
 		swal("Что-то пошло не так!", "К сожалению данная функция в разработке!", "warning");
 	});
 
+$(window).load(function() {
+    window.onload = function () {
+    document.body.classList.add('loader');
+  }
+});
+
 	$('.slick-slider').slick({
 		dots: true,
   		infinite: false,
