@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="toggle">
+                <!-- <button class="btn btn-primary menu__collapse"><span class="navbar-toggler-icon"></span></button> -->
+                <i class="fa fa-bars menu__collapse" aria-hidden="true"></i>
+            </div>
+            <label class="navbar__logo">
+                <img class="navbar__logo_img" src="../icons/calculator.png" alt="">
+                <a class="navbar__logo_link" href="index.html">Math&Help</a>
+            </label>
+            <label class="navbar__items">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Tutors</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Educational materials</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            </label>
+            <label class="navbar__form_register">
+                   <a class="log_inacc" href="#"><button >Log in</button></a>
+                   <a class="reg" href="#"><button >Registration</button></a>
+            </label>
+        </div>
+    </div>
+    
+    <div class="visit__block">
+        <div class="visit__card">
+            <font class="visit__font" color="white">You can do anything</font>
+            <a href="#feedback"><button class="visit__button_choose">Choose tutors</button></a>
+            <a href="#"><button class="visit__button_become">Become tutors</button></a>
+        </div>            
+
+
+    </div>
+    
+
+
+
+</header>
+    <main>
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                        <input type="radio" name="slider" id="switch4">
+                        <input type="radio" name="slider" id="switch5">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article><img src="../img/math1.jpg"></article>
+                                <article><img src="../img/math2.jpg"></article>
+                                <article><img src="../img/math3.jpg"></article>
+                                <article><img src="../img/math4.jpg"></article>
+                                <article><img src="../img/math5.jpg"></article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                    </div>
+                    <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                    </div>
+                </article>
+        </div>
+
+        <div class="info">
+            <div class="info__advice_block_first">
+                <div class="info__advice_block_content">
+                    <h2 class="info__title">How to find a good tutor?</h2>
+                    <p class="info__text">Good tutor - knows his job. Indeed, a good tutor can provide materials intelligibly, put in the missing knowledge so that they are remembered for a long time, and open up new opportunities for the student. But the most important thing is to find a tutor who really lives up to all expectations. And to do this is not very simple.
+                    <br><br>From a large number of tutors, the best tutor is the one who seeks, first of all, to increase the level of knowledge of his students. If he cannot do this, then he will not be in demand. But that is not all. In the search for a tutor, it is important to have a lot of nuances to consider.</p>
+                </div>
+            </div>
+            <div class="info__advice_block_second">
+                <div class="info__advice_block_content">
+                <h2 class="info__title info__title_two">Good base of tutors!</h2>
+                <p class="info__text"> On this site you can find some of the best math tutors to help you.
+                    <br><br>
+                We guarantee you first-class tutors</p>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="feedback" id="feedback">
+            <h2 class="feedback__title">Are you interested?</h2>
+            <h3 class="feedback__subtitle">You can find a tutor right now!</h3>
+            <form action="#" class="feedback__form">
+                <div class="form-group">
+                    <label for="nameInput" class="feedback__form_subtitle">Name</label>
+                    <input type="text" class="form-control feedback__form_item feedback__form_name" id="nameInput">
+               
+               </div>
+                <div class="form-group">
+                    <label for="phoneInput" class="feedback__form_subtitle">Phone</label>
+                    <input type="text" class="form-control form-input feedback__form_item feedback__form_phone" id="phoneInput">
+                   
+               </div>
+                <div class="form-group">
+                    <label for="emailInput" class="feedback__form_subtitle">Email</label>
+                    <input type="text" class="form-control form-input feedback__form_item feedback__form_email" id="emailInput">  
+                </div>
+                <input type="submit" class="btn btn-primary feedback__form_item feedback__form_button" value="Найти репетитора">
+            </form>
+        </div>
+
+    
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-lg-auto">
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.3895782342295!2d76.90913861871134!3d43.235089709645464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x2426740f56437e63!2z0KXQsNC70YvSm9Cw0YDQsNC70YvSmyDQsNKb0L_QsNGA0LDRgtGC0YvSmyDRgtC10YXQvdC-0LvQvtCz0LjRj9C70LDRgCDRg9C90LjQstC10YDRgdC40YLQtdGC0ZY!5e0!3m2!1sen!2skz!4v1588865041196!5m2!1sen!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <div class="col-lg-auto footer__block_content_text">
+                <h2 class="footer__title">Contacts</h2>
+                <span class="footer__item">Phone: +7 (777) 777 77 77</span>
+                <span class="footer__item">Email: example@gmail.com</span>
+                <span class="footer__item">Address: Abay street</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.menu__collapse').on('click', function(){
+                $('.nav-item').toggleClass('active');
+                $('.navbar__logo').toggleClass('active');
+                $('.navbar__items').toggleClass('active');
+                $('.navbar__form_register').toggleClass('active');
+            });
+        });
+    </script>   
+</body>
+</html>

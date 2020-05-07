@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script>
+        function check(){
+            var name = document.getElementById('name').value;
+            let y = /^[a-z]{2,}$/i.test(name);
+            if(!y){
+                alert("please enter your name without spaces");
+                return false;
+            }
+
+            var surname = document.getElementById('name').value;
+            let z = /^[a-z]{2,}$/i.test(name);
+            if(!z){
+                alert("please enter your surname");
+                return false;
+            }
+
+            var email = document.getElementById('email').value;
+            let x =/^[A-z0-9._-]+@[A-z0-9.-]+\.[A-z]{2,4}$/.test(email);
+            if(!x){
+                alert("please enter email right");
+                return false;
+            }
+
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="form" id = "form" >
+        <input type="text" id="name" name="name" placeholder="Olzhas" required/><br>
+        <input type="text" id="surname" name="surname" placeholder="Genius" required/><br>
+        <input type="text" id="email" name="email" placeholder="orzhac02@gmail.com" required/><br>
+        <input type="submit" value="Ok" onclick = "check()">
+    </form>
+</body>
+</html>
