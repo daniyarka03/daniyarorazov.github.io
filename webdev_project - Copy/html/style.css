@@ -580,10 +580,12 @@ label, a{ /*при наведении на стрелки или переклю�
 		margin-top: 40px;
 	}
 
-	
+	.info__title_two {
+		margin-top: 300px;
+	}
 	.feedback__form_item {
 		display: inline-block;
-		width: 400px;
+		width: 70%;
 		height: 50px;
 		margin: 0 auto;
 		margin-right: 20px;
@@ -591,15 +593,23 @@ label, a{ /*при наведении на стрелки или переклю�
 	}
 
 	.feedback__form_subtitle {
-		margin-left: 20px;
+		margin-left: 60px;
 	}
 
 	.feedback__form_button {
 		margin-top: 40px;
 	}
 
+	.feedback__subtitle {
+		font-size: 24px;
+	}
+
 	.form-group {
-		width: 400px;
+		width: 100%;
+	}
+
+	.footer__item {
+		font-size: 18px;
 	}
 
 
