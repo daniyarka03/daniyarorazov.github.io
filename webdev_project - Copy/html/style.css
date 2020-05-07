@@ -586,9 +586,12 @@ label, a{ /*при наведении на стрелки или переклю�
 		width: 400px;
 		height: 50px;
 		margin: 0 auto;
+		margin-right: 20px;
+		margin-left: 20px;
 	}
 
 	.feedback__form_subtitle {
+		margin-left: 20px;
 	}
 
 	.feedback__form_button {
