@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap');
+
+/* Основные стили */
+
+/* margin: ; - внешние отсутпы */
+/* padding: ; - внутренние отступы */
+/* font-family: ; - шрифт */
+/* font-size: ; - размер текста */
+/* background: ; - задний фон */
+/* width: ; - размер ширины */
+/* height: ; - размер высоты */
+/* color: ; - цвет текста */
+/* font-weight: ; - жирность текста */
+/* text-align: ; - центрирование */
+
+/* Стили ко всей странице */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Стили к заголовку первого уровня */
+h1 {
+    font-size: 50px;
+}
+
+label {
+    display: inline-block;  
+}
+
+
+
+
+ul {
+    margin-left: 200px;
+    list-style: none;
+}
+
+
+/* Стили Header и навигационного блока */
+
+/* Стили к блоку - скрытия меню */
+.toggle {
+    display: none;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 30px;
+}
+
+/* Стили ссылки в навигационном блоке */
+.nav-link {
+    color: #000;  
+}
+
+/* Стили элементов в навигационном блоке */
+.nav-item {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Стили к блоку Логотипа */
+.navbar__logo {
+    display: flex;
+    align-items: center;
+}
+/* Стили к логотипу */
+.navbar__logo_img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Стили к названию сайта */
+.navbar__logo_link {
+    font-size: 50px;
+    color: #000;
+}
+
+/* Стили при наведения курсором мыши */
+.navbar__logo_link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Стили кнопки */
+button {
+    /*Button style*/
+    padding: 15px 25px;
+    margin: 30px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    /*Text style*/
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+/* Стили при наведения курсором мыши */
+button:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+/* Стили к тексту */
+.header__logo_text {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+/* Visit block styles */
+
+/* Стили к первому блоку */
+.visit__card {
+    weight: 2400px;
+    height: 800px;
+    padding-left: 15px; 
+}
+
+.visit__card_row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+/* Стили к изображению */
+.visit__card_img {
+    width: 80%;
+}
+
+.visit__card_block_content_text {
+    text-align: left;
+    padding-top: 5%;
+}
+
+/* Стили к заголовку */
+.visit__card_title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* Стили к тексту */
+.visit__card_text {
+    font-size: 24px;
+    width: 400px;
+}
+
+
+/* Стили к кнопке */
+.visit__card_button {
+    width: 50%;
+    margin-top: 100px;
+    background-color: #B1CBDC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Materials styles */
+
+/* Стиль блока */
+.materials {
+    margin-top: 80px;
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+/* Стили к заголовку */
+.materials__title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+
+/* Стили к списку */
+.materials__list {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Перед элементами списка подставляется тире (-) */
+.list__link::before {
+    content: '- ';
+    padding-right: 20px;
+}
+
+/* Стили к элементам */
+.list__item {
+    margin-top: 20px;
+}
+
+
+/* Стили к ссылке элемента */
+.list__link {
+    font-size: 24px;
+
+}
+
+/* При наведении на ссылку элемента, нижнее подчеркивание убирается */
+.list__link:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили подвала сайта (Футер) */
+
+.footer {
+    height: 600px;
+    background: #9FC8FE;
+    margin-top: 400px;
+
+    padding-top: 40px;
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+
+/* Стили к заголовку */
+.footer__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 56px;
+    text-align: center;
+}
+
+/* Стили к другим элементам (span) */
+.footer__item {
+    display: block;
+    font-size: 24px;
+    color: #D9E9FF;
+    margin-top: 20px;
+}
+
+
+.footer__block_content_text {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Стили Адаптива */
+
+
+/* Header и навигационный блок */
+@media (max-width: 1404px) {
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar__items {
+        display: block;
+    }
+
+
+    .toggle {
+        display: block;
+        transition: 0.6s ease;
+    }
+    .nav-item {
+        display: block;
+    }
+
+    .navbar__logo {
+        display: none;
+    }
+
+    .navbar__items {
+        display: none;
+    }
+
+    .navbar__form_register {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Стили первого блока */
+
+@media(max-width: 1140px) {
+    .visit__card_title {
+        font-size: 36px;
+    }
+
+    .visit__card_text {
+        font-size: 20px;
+    }
+
+    .visit__card_button {
+        width: 50%;
+    }
+}
+
+@media(max-width: 992px) {
+     .visit__card_title {
+        font-size: 24px;
+    }
+
+    .visit__card_text {
+        font-size: 18px;
+    }
+
+    .visit__card_button {
+        width: 40%;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 900px) {
+    .visit__card_row {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-column: 1/4;
+    }
+
+    .visit__card_img {
+        width: 50%;
+    }
+
+    .visit__card_block_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .visit__card_block_content_text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .visit__card_text {
+        margin: 0 auto;
+    }
+
+    .visit__card_button {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 576px) {
+    .visit__card_text {
+        width: 90%;
+    }
+
+    .visit__card_button {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Стили ко Второму блоку | Material */
+
+@media(max-width: 904px) {
+    .list__link {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 720px) {
+    .materials {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media(max-width: 576px) {
+    .materials__title {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Стили к footer */
+
+@media(max-width: 1163px) {
+    .footer {
+        height: 1000px;
+    }
+
+    .footer .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__map {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer__block_content_text {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .footer__map {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .visit__font {
+        font-size: 64px;
+        margin-top: 40px;
+    }
+
+    .footer__item {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 578px) {
+    .footer__map {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+    }
+}
+

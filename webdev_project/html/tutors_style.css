@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap');
+
+/* Основные стили */
+
+/* margin: ; - внешние отсутпы */
+/* padding: ; - внутренние отступы */
+/* font-family: ; - шрифт */
+/* font-size: ; - размер текста */
+/* background: ; - задний фон */
+/* width: ; - размер ширины */
+/* height: ; - размер высоты */
+/* color: ; - цвет текста */
+/* font-weight: ; - жирность текста */
+/* text-align: ; - центрирование */
+
+/* Стили ко всей странице */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Стили к заголовку первого уровня */
+h1 {
+    font-size: 50px;
+}
+
+label {
+    display: inline-block;  
+}
+
+
+
+
+ul {
+    margin-left: 200px;
+    list-style: none;
+}
+
+
+/* Стили Header и навигационного блока */
+
+/* Стили к блоку - скрытия меню */
+.toggle {
+	display: none;
+	width: 100%;
+	padding: 10px 20px;
+	text-align: right;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 30px;
+}
+
+/* Стили ссылки в навигационном блоке */
+.nav-link {
+    color: #000;  
+}
+
+/* Стили элементов в навигационном блоке */
+.nav-item {
+    display: inline-block;
+	margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Стили к блоку Логотипа */
+.navbar__logo {
+	display: flex;
+	align-items: center;
+}
+/* Стили к логотипу */
+.navbar__logo_img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Стили к названию сайта */
+.navbar__logo_link {
+    font-size: 50px;
+    color: #000;
+}
+
+/* Стили при наведения курсором мыши */
+.navbar__logo_link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Стили кнопки */
+button {
+    /*Button style*/
+    padding: 15px 25px;
+    margin: 30px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    /*Text style*/
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+/* Стили при наведения курсором мыши */
+button:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+}
+
+/* Стили к тексту */
+.header__logo_text {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+/* Первый блок  */
+.visit__card {
+    weight: 2400px;
+    height: 800px;
+    padding-left: 15px; 
+}
+
+.visit__card_row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+/* Стили к изображению в первом блоке */
+.visit__card_img {
+    width: 80%;
+}
+
+/* Стили содрежимого блока */
+.visit__card_block_content_text {
+    text-align: left;
+    padding-top: 5%;
+}
+
+/* Стили заголовка */
+.visit__card_title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* Стили текста */
+.visit__card_text {
+    font-size: 24px;
+    width: 400px;
+}
+
+.visit__card_button {
+    width: 50%;
+    margin-top: 100px;
+    background-color: #B1CBDC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Второй блок с репетиторами */
+.tutors-block {
+    padding-right: 106px;
+    padding-left: 106px;
+
+}
+
+
+/* Заголовок блока */
+.tutors-block__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+/* Подстановка тире перед заголовком */
+.tutors-block__title::before {
+    content: '- ';
+}
+
+/* Подстановка тире после заголовком */
+.tutors-block__title::after {
+    content: ' -';
+}
+
+/* Стили блока карточки */
+.card__block {
+    height: 330px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+.card__block_row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(330px, auto);
+}
+
+
+/* Блок с изображением */
+.card__block_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили содрежимого (текст, имя и т.д.) */
+.card__block_content_text {
+    display: block;
+    margin: auto 0;
+}
+
+
+/* Стили кнопки */
+.card__row_block_button {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Блок карточки */
+.card__block_row_form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Создание 3 блоков с помощью css grid */
+
+}
+
+
+
+.card__block_avatar {
+    width: 180px;
+    height: 180px;
+    background: #E2EFFF;
+}
+
+.card__block_item {
+    display: block;
+    color: #4A619B;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.card__block_name {
+    font-size: 30px;
+}
+
+.card__block_button {
+    background-color: #4A619B;
+    width: 300px;
+    color: #fff;
+}
+
+.card__block_button:hover {
+    color: #000;
+}
+
+
+
+
+
+
+/* Стили подвала сайта (Футер) */
+
+.footer {
+    height: 600px;
+    background: #9FC8FE;
+    margin-top: 400px;
+
+    padding-top: 40px;
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+
+/* Стили к заголовку */
+.footer__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 56px;
+    text-align: center;
+}
+
+/* Стили к другим элементам (span) */
+.footer__item {
+    display: block;
+    font-size: 24px;
+    color: #D9E9FF;
+    margin-top: 20px;
+}
+
+
+.footer__block_content_text {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*Adaptive styles for Visit Card Block*/
+
+@media(max-width: 1140px) {
+    .visit__card_title {
+        font-size: 36px;
+    }
+
+    .visit__card_text {
+        font-size: 20px;
+    }
+
+    .visit__card_button {
+        width: 50%;
+
+    }
+}
+
+@media(max-width: 992px) {
+     .visit__card_title {
+        font-size: 24px;
+    }
+
+    .visit__card_text {
+        font-size: 18px;
+    }
+
+    .visit__card_button {
+        width: 40%;
+        height: 50px;
+        font-size: 14px;
+
+    }
+}
+
+@media(max-width: 900px) {
+    .visit__card_row {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-column: 1/4;
+    }
+
+    .visit__card_img {
+        width: 50%;
+    }
+
+    .visit__card_block_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .visit__card_block_content_text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .visit__card_text {
+        margin: 0 auto;
+    }
+
+    .visit__card_button {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 576px) {
+    .visit__card_text {
+        width: 90%;
+    }
+
+    .visit__card_button {
+        width: 90%;
+    }
+}
+
+
+/* Adaptive styles for Cards Block */
+
+@media(max-width: 1140px) {
+    .tutors-block__title {
+        font-size: 36px;
+    }
+
+    .card__block_row {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-auto-rows: minmax(200px, auto);
+    }
+
+    .card__row_block_button {
+        display: grid;
+        grid-column: 1/4;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 992px) {
+    .tutors-block__title {
+        font-size: 30px;
+    }
+    
+   .card__row_block_button {
+        padding: 0;
+   }
+
+   
+
+
+}
+
+@media(max-width: 720px) {
+    .card__block {
+        margin-bottom: 300px;
+    }
+    .card__block_row {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-column: 1/4;
+    }
+
+    .card__block_image {
+        display: grid;
+        grid-column: 1/4;
+   }
+
+   .card__block_content_text {
+        display: block;
+        text-align: center;
+   }
+
+   .card__row_block_button {
+        display: block;
+        text-align: center;
+   }
+}
+
+@media(max-width: 576px) {
+     .tutors-block__title {
+        font-size: 24px;
+    }
+
+    .card__block {
+        margin-bottom: 500px;
+        
+    }
+
+    .card__block_content_text {
+        text-align: left;
+    }
+
+    .card__block_button {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .card__block_image {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1404px) {
+
+
+
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar__items {
+        display: block;
+    }
+
+
+    .toggle {
+        display: block;
+        transition: 0.6s ease;
+    }
+    .nav-item {
+        display: block;
+    }
+
+    .navbar__logo {
+        display: none;
+    }
+
+    .navbar__items {
+        display: none;
+    }
+
+    .navbar__form_register {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+
+}
+
+@media(max-width: 1205px) {
+    .visit__button_choose {
+        width: 200px;
+    }
+
+    .visit__button_become {
+        width: 200px;
+    }
+}
+
+
+@media(max-width: 1163px) {
+    .footer {
+        
+        height: 1000px;
+
+    }
+
+    .footer .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__map {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer__block_content_text {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+ .footer__map {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .visit__font {
+        font-size: 64px;
+        margin-top: 40px;
+    }
+
+    .footer__item {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 578px) {
+    .footer__map {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+    }
+}
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Кодировка сайта (для того, чтобы сайт понял кириллицу) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- Подключение библиотеки Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Подключение стилей -->
+    <link href="css/trigonometry_formulas.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Навигационный блок -->
+        <div class="navbar">
+            <!-- Блок при уменьшении размера сайта, появляется меню -->
+            <div class="toggle">
+                <i class="fa fa-bars menu__collapse" aria-hidden="true"></i>
+            </div>
+
+            <!-- Логотип сайта -->
+            <label class="navbar__logo">
+                <img class="navbar__logo_img" src="../icons/calculator.png" alt="">
+                <a class="navbar__logo_link" href="../index.html">Math&Help</a>
+            </label>
+
+            <!-- Элементы сайта (меню) -->
+            <label class="navbar__items">
+                <!-- Элементы -->
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../tutors.html" class="nav-link">Tutors</a></li>
+                <li class="nav-item"><a href="../educational_materials.html" class="nav-link">Educational materials</a></li>
+                <li class="nav-item"><a href="../contacts.html" class="nav-link">Contacts</a></li>
+            </label>
+
+            <!-- Кнопки регистрации и авторизации -->
+            <label class="navbar__form_register">
+                   <!-- Кнопки с ссылками -->
+                   <a class="log_inacc" href="../login.html"><button >Log in</button></a>
+                   <a class="reg" href="../registration.html"><button >Registration</button></a>
+            </label>
+        </div>
+    </div>
+    
+    <!-- Первый блок -->
+     <div class="visit__block">
+        <div class="visit__card">
+            <div class="row visit__card_row">
+                <div class="col-lg-auto visit__card_block_img">
+                    <!-- Изображение -->
+                    <img src="img/materials_img.png" alt="" class="visit__card_img">
+                </div>
+                <div class="col-lg-auto visit__card_block_content_text"> 
+                    <!-- Заголовок -->
+                    <h2 class="visit__card_title">Trigonometry formulass</h2>
+                    <!-- Текст -->
+                    <p class="visit__card_text">On this page you can find a lot of mathematical formulas</p>
+                    <!-- Кнопка с ссылкой на блок materials -->
+                    <a href="#materials"><button class="visit__card_button">Let's go get knowledge</button></a>
+                </div>
+            </div>
+        </div>            
+    </div>
+</header>
+
+
+
+<!-- Основной блок -->
+<main>
+    <!-- Второй блок материалы -->
+    <!-- Блок с формулами -->
+    <div class="materials materials_block_first" id="materials">
+        <!-- Заголовок блока -->
+        <h2 class="materials_block_first__title materials__title">Basic trigonometric identities</h2>
+        <!-- Изображение блока -->
+        <img class="materials_image" src="img/trigonometry_formulas/f1 1.png" alt="">
+    </div>
+    
+    <!-- Блок с формулами -->
+    <div class="materials materials_block_second">
+        <article> 
+            <!-- Заголовок блока -->
+            <h2 class="materials_block_second__title materials__title">Addition formulas</h2>
+            <!-- Изображение блока -->
+            <img class="materials__img materials_block_second__img materials_image" src="img/trigonometry_formulas/f2 1.png" alt=""></article>
+        <article>
+            <!-- Заголовок блока --> 
+            <h2 class="materials_block_second__title materials__title">Downgrade formulas</h2>
+            <!-- Изображение блока -->
+            <img class="materials__img materials_block_second__img materials_image" src="img/trigonometry_formulas/f4 1.png" alt=""></article>
+    </div>
+    <!-- Блок с формулами -->
+     <div class="materials materials_block_first">
+        <!-- Заголовок блока -->
+        <h2 class="materials_block_first__title materials__title">Half argument formulas</h2>
+        <!-- Изображение блока -->
+        <img class="materials_image" src="img/trigonometry_formulas/f7 1.png" alt="">
+    </div>
+    
+    <!-- Блок с формулами -->
+     <div class="materials materials_block_first">
+        <!-- Заголовок блока -->
+        <h2 class="materials_block_first__title materials__title">Cast formulas</h2>
+        <!-- Изображение блока -->
+        <img class="materials_image" src="img/trigonometry_formulas/f8 1.png" alt="">
+    </div>
+    
+    <!-- Блок с формулами -->
+     <div class="materials materials_block_first">
+        <!-- Заголовок блока -->
+        <h2 class="materials_block_first__title materials__title">Sum Conversion Formulas</h2>
+        <!-- Изображение блока -->
+        <img class="materials_image" src="img/trigonometry_formulas/f9 1.png" alt="">
+    </div>
+</main>
+
+
+
+
+
+
+
+
+<!-- Подвал сайта (Футер) -->
+    <footer class="footer">
+        <!-- Блок который выстраивает все блоки в строку  -->
+        <div class="row">
+            <!-- Первый блок -->
+            <div class="col-lg-auto">
+                <!-- Google карта -->
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.3895782342295!2d76.90913861871134!3d43.235089709645464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x2426740f56437e63!2z0KXQsNC70YvSm9Cw0YDQsNC70YvSmyDQsNKb0L_QsNGA0LDRgtGC0YvSmyDRgtC10YXQvdC-0LvQvtCz0LjRj9C70LDRgCDRg9C90LjQstC10YDRgdC40YLQtdGC0ZY!5e0!3m2!1sen!2skz!4v1588865041196!5m2!1sen!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+            <!-- Второй блок -->
+            <div class="col-lg-auto footer__block_content_text">
+                <!-- Заголовок -->
+                <h2 class="footer__title">Contacts</h2>
+                <!-- Телефон -->
+                <span class="footer__item">Phone: +7 (777) 777 77 77</span>
+                <!-- Email -->
+                <span class="footer__item">Email: example@gmail.com</span>
+                <!-- Улица -->
+                <span class="footer__item">Address: Abay street</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение библиотеки jQuery для JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Скрипт библиотеки Bootstrap 4 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Начало JavaScript -->
+    <script>
+        // Создаем функцию, которая начинает работать при подгрузке сайт
+        $(document).ready(function(){
+            // Обращаемся к кнопке. При нажати на кнопку, происходит событие
+            $('.menu__collapse').on('click', function(){
+                // Элементы навигационного блока показываются после нажатии на кнопку
+                // При нажати добавляем класс active, а при повторном нажати удаляем класс active
+                // P.S. Это сделано для средних и маленьких экранов
+                $('.nav-item').toggleClass('active');
+                $('.navbar__logo').toggleClass('active');
+                $('.navbar__items').toggleClass('active');
+                $('.navbar__form_register').toggleClass('active');
+            });
+        });
+    </script>   
+</body>
+</html>

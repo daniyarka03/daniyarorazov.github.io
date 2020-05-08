@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Кодировка сайта (для того, чтобы сайт понял кириллицу) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- Подключение библиотеки Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Подключение стилей -->
+    <link href="contacts.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+      <!-- Блок Header (Шапка сайта) -->
+    <header class="header">
+        <!-- Навигационный блок -->
+        <div class="navbar">
+            <!-- Блок при уменьшении размера сайта, появляется меню -->
+            <div class="toggle">
+                <i class="fa fa-bars menu__collapse" aria-hidden="true"></i>
+            </div>
+
+            <!-- Логотип сайта -->
+            <label class="navbar__logo">
+                <img class="navbar__logo_img" src="../icons/calculator.png" alt="">
+                <a class="navbar__logo_link" href="index.html">Math&Help</a>
+            </label>
+
+            <!-- Элементы сайта (меню) -->
+            <label class="navbar__items">
+                <!-- Элементы -->
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="tutors.html" class="nav-link">Tutors</a></li>
+                <li class="nav-item"><a href="educational_materials.html" class="nav-link">Educational materials</a></li>
+                <li class="nav-item"><a href="contacts.html" class="nav-link">Contacts</a></li>
+            </label>
+
+            <!-- Кнопки регистрации и авторизации -->
+            <label class="navbar__form_register">
+                   <!-- Кнопки с ссылками -->
+                   <a class="log_inacc" href="login.html"><button >Log in</button></a>
+                   <a class="reg" href="registration.html"><button >Registration</button></a>
+            </label>
+        </div>
+    </div>
+    
+    <!-- Первый блок -->
+    <div class="visit__block">
+        <div class="visit__card">
+            <div class="row visit__card_row">
+                <!-- Блок с изображением -->
+                <div class="col-lg-auto visit__card_block_img">
+                    <!-- Изображение -->
+                    <img src="../img/ContactsPage/header__img.png" alt="" class="visit__card_img">
+                </div>
+                <!-- Блок с текстом -->
+                <div class="col-lg-auto visit__card_block_content_text"> 
+                    <!-- Заголовок -->
+                    <h2 class="visit__card_title">Feedback</h2>
+                    <!-- Текст -->
+                    <p class="visit__card_text">Here you can send a request to find a tutor</p>
+                    <!-- Кнопка с ссылкой к блоку #feedback -->
+                    <a href="#feedback"><button class="visit__card_button">Find a Tutor</button></a>
+                </div>
+            </div>
+        </div>            
+    </div>
+</header>
+
+
+
+<main>
+    <!-- Второй блок -->
+   <div class="feedback" id="feedback">
+        <!-- Заголовок -->
+        <h2 class="feedback__title">Are you interested?</h2>
+        <!-- Подзаголовок -->
+        <h3 class="feedback__subtitle">You can find a tutor right now!</h3>
+        <!-- Форма -->
+        <form action="#" class="feedback__form">
+            <!-- Блок с формами -->
+            <div class="form-group">
+                <!-- Название формы -->
+                <label for="nameInput" class="feedback__form_subtitle">Name</label>
+                <!-- Форма поля ввода -->
+                <input type="text" class="form-control feedback__form_item feedback__form_name" id="nameInput">
+            </div>
+            <div class="form-group">
+                 <!-- Название формы -->
+                <label for="phoneInput" class="feedback__form_subtitle">Phone</label>
+                <!-- Форма поля ввода -->
+                <input type="text" class="form-control form-input feedback__form_item feedback__form_phone" id="phoneInput">
+                   
+            </div>
+            <div class="form-group">
+                <!-- Название формы -->
+                <label for="emailInput" class="feedback__form_subtitle">Email</label>
+                <!-- Форма поля ввода -->
+                <input type="text" class="form-control form-input feedback__form_item feedback__form_email" id="emailInput">  
+            </div>
+            <!-- Кнопка для отправки заявки -->
+            <input type="submit" class="btn btn-primary feedback__form_item feedback__form_button" value="Find a Tutor">
+        </form>
+    </div>
+</main>
+
+
+ <!-- Подвал сайта (Футер) -->
+    <footer class="footer">
+        <!-- Блок который выстраивает все блоки в строку  -->
+        <div class="row">
+            <!-- Первый блок -->
+            <div class="col-lg-auto">
+                <!-- Google карта -->
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.3895782342295!2d76.90913861871134!3d43.235089709645464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x2426740f56437e63!2z0KXQsNC70YvSm9Cw0YDQsNC70YvSmyDQsNKb0L_QsNGA0LDRgtGC0YvSmyDRgtC10YXQvdC-0LvQvtCz0LjRj9C70LDRgCDRg9C90LjQstC10YDRgdC40YLQtdGC0ZY!5e0!3m2!1sen!2skz!4v1588865041196!5m2!1sen!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+            <!-- Второй блок -->
+            <div class="col-lg-auto footer__block_content_text">
+                <!-- Заголовок -->
+                <h2 class="footer__title">Contacts</h2>
+                <!-- Телефон -->
+                <span class="footer__item">Phone: +7 (777) 777 77 77</span>
+                <!-- Email -->
+                <span class="footer__item">Email: example@gmail.com</span>
+                <!-- Улица -->
+                <span class="footer__item">Address: Abay street</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение библиотеки jQuery для JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Скрипт библиотеки Bootstrap 4 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Начало JavaScript -->
+    <script>
+        // Создаем функцию, которая начинает работать при подгрузке сайт
+        $(document).ready(function(){
+            // Обращаемся к кнопке. При нажати на кнопку, происходит событие
+            $('.menu__collapse').on('click', function(){
+                // Элементы навигационного блока показываются после нажатии на кнопку
+                // При нажати добавляем класс active, а при повторном нажати удаляем класс active
+                // P.S. Это сделано для средних и маленьких экранов
+                $('.nav-item').toggleClass('active');
+                $('.navbar__logo').toggleClass('active');
+                $('.navbar__items').toggleClass('active');
+                $('.navbar__form_register').toggleClass('active');
+            });
+        });
+    </script>   
+</body>
+</html>
