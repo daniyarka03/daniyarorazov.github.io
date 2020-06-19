@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Охотники за привидениями: Наследники</title>
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo.svg" alt="Logo: film" class="logo">
+        <div class="line"></div>
+        <div class="m-menu">
+            <input type="text" class="search-input" placeholder="Поиск по фильмам...">
+            <nav class="navigation">
+                <a href="#" class="navigation-link">Фильмы</a>
+                <a href="#" class="navigation-link">ТВ</a>
+                <a href="#" class="navigation-link">Новости</a>
+                <a href="#" class="navigation-link">О сервисе</a>   
+            </nav>
+            <div class="button-group">
+                <button class="button sign-up">Регистрация</button>
+                <button class="button login">Войти</button>
+            </div>
+        </div>
+        <div class="mobile-buttons">
+            <button class="search-button">
+                <img src="img/search-icon.svg" alt="search">     
+            </button>
+            <button class="m-menu-button">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </header>
+    <section class="film">
+        <div class="container">
+            <div class="film-wrapper">
+                <div class="film-trailer">
+                    <img src="img/poster.jpg" alt="Poster" class="poster">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=ahZFCF--uRY" class="trailer-button">
+                        <img class="trailer-button-icon" src="img/play.svg" alt="play">
+                        <span  class="trailer-button-text">Посмотреть трейлер</span>
+                    </a>    
+                </div>
+                <div class="film-text">
+                    <h1 class="film-title">Охотники за привидениями: <br> Наследники</h1>
+                    <span class="film-subtitle">Ghostbusters: Afterlife</span>
+                    <p class="film-description">
+                        Мать-одиночка с двумя детьми-подростками селится на старой ферме  
+                        в&nbsp;Оклахоме, полученной в наследство от отца, которого она не знала. 
+                        Дети пытаются больше узнать о своем деде и находят автомобиль 
+                        Ecto-1, принадлежавший знаменитым охотникам за привидениями.
+                    </p>
+                    <div class="about-film">
+                        <div class="left-side">
+                            <span class="about-text">
+                                <strong class="about-text-bold">Режиссер</strong>
+                                <span class="about-text-regular">Джейсон Райтман</span>
+                            </span>
+                            <span class="about-text">
+                                <strong class="about-text-bold">Сценарий</strong>
+                                <span class="about-text-regular">Дэн Эйкройд</span>
+                            </span>
+                            <span class="about-text">
+                                <strong class="about-text-bold">Премьера</strong>
+                                <span class="about-text-regular">09.07.2020 (РФ)</span>
+                            </span>
+                        </div>
+                        <div class="right-side">
+                            <span class="about-text">
+                                <strong class="about-text-bold">Бюджет</strong>
+                                <span class="about-text-regular">1 000 000 $</span>
+                            </span>
+                            <span class="about-text">
+                                <strong class="about-text-bold">Кинопрокат</strong>
+                                <span class="about-text-regular">SPPR</span>
+                            </span>
+                            <span class="about-text">
+                                <strong class="about-text-bold">Премьера</strong>
+                                <span class="about-text-regular">09.07.2020 (РФ)</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rating-counter">92%</div>
+                        <div class="rating-description">
+                            <h3 class="rating-title">Рейтинг зрителей</h3>
+                            <span class="rating-text">Средняя оценка: <strong class="rating-text-bold">4,5/5</strong></span>
+                            <span class="rating-text">Всего голосов: <strong class="rating-text-bold">4 350</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cast">
+        <div class="container">
+            <div class="tabs">
+                <h2 class="tab section-title active" data-target="#actors">Актеры</h2>
+                <h2 class="tab section-title" data-target="#creators">Создатели</h2>
+            </div>
+            <div class="tabs-content visible" id="actors">
+                <div class="card">
+                    <img src="img/actors/1.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Кэрри Кун</h3>
+                        <span class="en-name">Carrie Coon</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/2.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Билл Мюррей</h3>
+                        <span class="en-name">Bill Murray</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/3.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Пол Радд</h3>
+                        <span class="en-name">Paul Rudd</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/4.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Энни Поттс</h3>
+                        <span class="en-name">Annie Potts</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/5.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">МакКенна Грейс</h3>
+                        <span class="en-name">Mckenna Grace</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/6.jpg" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Дэн Эйкройд</h3>
+                        <span class="en-name">Dan Aykroyd</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/7.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Эрни Хадсон</h3>
+                        <span class="en-name">Ernie Hudson</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/8.png" alt="Кэрри Кун" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Финн Вулфард</h3>
+                        <span class="en-name">Finn Wolfhard</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-content" id="creators">
+                <div class="card">
+                    <img src="img/actors/6.jpg" alt="Дэн Эйкройд" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Дэн Эйкройд</h3>
+                        <span class="en-name">Dan Aykroyd</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/actors/9.jpg" alt="Джейсон Райтман" class="card-image">
+                    <div class="card-text">
+                        <h3 class="name">Джейсон Райтман</h3>
+                        <span class="en-name">Jason Reitman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="section-title section-news-title">Новости по теме</h2>
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <span class="news-date">31 марта 2020</span>
+                            <h3 class="news-title">«Морбиуса» и «Охотников за привидениями» перенесли на следующий год</h3>
+                        </div>
+                        <!-- /.news-card -->
+                    </div>
+                    <!-- /.swipet-slide -->
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <span class="news-date">9 декабря 2019</span>
+                            <h3 class="news-title">Наследники: Вышел дебютный трейлер новых «Охотников за привидениями»</h3>
+                        </div>
+                        <!-- /.news-card -->
+                    </div>
+                    <!-- /.swipet-slide --> 
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <span class="news-date">11 ноября 2019</span>
+                            <h3 class="news-title">Новые «Охотники за привидениями» обзавелись названием</h3>
+                        </div>
+                        <!-- /.news-card -->
+                    </div>
+                    <!-- /.swipet-slide -->
+                     <div class="swiper-slide">
+                        <div class="news-card">
+                            <span class="news-date">19 октября 2019</span>
+                            <h3 class="news-title">Завершились съёмки новых «Охотников за привидениями»
+                            </h3>
+                        </div>
+                        <!-- /.news-card -->
+                    </div>
+                    <!-- /.swipet-slide -->
+                </div>
+                <!-- ./swiper-wrapper -->
+                <button class="button-next">
+                    <img src="img/arrow.svg" alt="arrow">
+                </button>
+            </div>
+            <!-- ./swiper-container -->
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
