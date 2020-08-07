@@ -1,6 +1,0 @@
-/img/plan_cosmo/plan-2.jpg
-/img/plan_cosmo/plan-1.jpg
-/img/plan_cosmo/plan-3.jpg
-/js/vendor/jquery-1.11.2.min.js
-/all_partners.docx
-/img/lenta-3.png
