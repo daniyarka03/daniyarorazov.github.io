@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 360px;
+    height: 100%;
+    margin: auto;
+    margin-top: 45px; 
+}
+
+.form-input {
+    width: 360px;
+    height: 50px;
+    border: 2px solid #C9C9C9;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    outline: none;
+    
+}
+
+.form-input:focus {
+    border: 2px solid #676767;
+}
+
+.button {
+    width: 360px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-purple {
+    background: #8000FF;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.name-input {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.button-cancel {
+    width: 360px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 40px;
+    border: 1px solid #000000;
+}
+
+@media (max-width: 500px) {
+
+    .form-input {
+        width: 100%;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 100px;
+    }
+
+    .button, .button-cancel {
+        width: 100%;
+    }
+}

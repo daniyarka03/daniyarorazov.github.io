@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.form-input {
+    width: 360px;
+    height: 60px;
+    border: 2px solid #C9C9C9;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    outline: none;
+}
+
+.form-input:focus {
+    border: 2px solid #676767;
+}
+
+.button {
+    width: 360px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-purple {
+    background: #8000FF;
+}
+
+.flex-container {
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.flex-container-small {
+
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+
+
+.button-settings {
+    width: 260px;
+    height: 69px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+
+.div-text {
+    padding-bottom: 31px;
+    font-size: 36px;
+
+
+}
+
+
+.div-button {
+    padding-bottom: 92px;
+}
+
+.div-checkbox {
+    height: 140px;
+    padding-bottom: 63px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.settings-header {
+    font-size: 50px;
+
+
+}
+
+.checkboxes {
+    background: #FFFFFF;
+    border: 2px solid #676767;
+    width: 20px;
+    height: 20px;
+
+}
+
+.text-checkbox {
+    padding-left: 21px;
+    font-size: 20px;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.center {
+    align-items: center;
+}
+
+@media(max-width: 1286px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    
+}
+
+@media(max-width: 576px) {
+    h1 {
+        font-size: 64px;
+        margin-top: 20px;
+    }   
+}

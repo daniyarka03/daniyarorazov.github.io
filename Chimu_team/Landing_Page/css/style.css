@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.form-input {
+    width: 360px;
+    height: 60px;
+    border: 2px solid #C9C9C9;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    outline: none;
+}
+
+.form-input:focus {
+    border: 2px solid #676767;
+}
+
+.button {
+    width: 360px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-purple {
+    background: #8000FF;
+}
+
+
+/* Header */
+
+/* Navigation Block */
+
+.navigation-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.sign-up {
+    padding: 17px 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header content */
+
+.header__title {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    margin: 0;
+    margin-top: 88px;
+}
+
+.header__button {
+    display: block;
+    margin: auto;
+    margin-top: 215px;
+}
+
+.navbar__toggle-button:focus {
+    outline: none;
+}
+
+.navbar__toggle-button {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+/* Main content */ 
+
+/* Section description */
+
+.section {
+    height: 750px;
+    padding-top: 235px;
+
+}
+
+.section__title {
+    color: #000;
+    font-weight: 500;
+    font-size: 36px;
+    top: 0;
+    bottom: 0;
+}
+
+
+.section-description {
+    font-size: 48px;
+}
+
+/* Footer */
+
+.footer {
+    height: 100%;
+    background-color: #000;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.footer__navigation-block {
+    padding-top: 133px;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     
+}
+
+.footer__link {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__line {
+    margin-top: 126px;
+}
+
+.footer__social-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+
+.footer__coopyright_link {
+    color: #fff;
+}
+
+.footer-icon__link {
+    margin-left: 25px;
+}
+
+
+
+@media(max-width: 1203px) {
+
+    .header {
+        margin: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: auto;
+    }
+    
+    .header__title {
+        font-size: 64px;
+    }
+
+    .section {
+        margin: 0;  
+    }
+
+    .section__title {
+        width: auto;
+        margin: auto;
+        font-size: 36px;
+    }
+
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-card {
+        margin-bottom: 70px;
+    }
+
+    .navigation-block {
+        display: block;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navigation-buttons {
+        display: none;
+        text-align: center;
+    }
+
+    .navigation-buttons-active {
+        display: block;
+    }
+
+    .navigation-buttons .nav-item {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .navbar__toggle-button {
+        display: inline-block;
+        float: right;
+    }
+
+    .header__title {
+        font-size: 64px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .header__button {
+        width: 100%;
+    }
+
+    .header__title {
+        font-size: 48px;
+        line-height: 60px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 100%;
+        padding-bottom: 40px;
+        margin-top: 200px;
+    }
+
+    .footer__row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__link {
+        justify-self: center;
+    }
+
+    .footer__social-block {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__coopyright_link {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+   
+
+}
+
+@media(max-width: 400px) {
+    .header__title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
