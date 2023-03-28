@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #031927;
+    font-family: 'Inter', sans-serif;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main {}
+
+header {
+    max-width: 712px;
+    margin: 0 auto;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 42px;
+}
+
+.event-title {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    height: 82px;
+    background-color: #09293D;
+    border-radius: 15px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.event-title h3 {
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+main {
+    max-width: 712px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 755px) {
+    main {
+        margin: 25px 30px;
+        padding-left: 0;
+    }
+
+    header {
+        margin: 0 30px;
+    }
+}
+
+.section-event-timeline {}
+
+.event-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-block__content {
+    display: flex;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.event-status {
+    background-color: #FA5F52;
+    width: 42px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.event-status span {
+    color: #fff;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.disabled {
+    color: rgba(255, 255, 255, 0.25);
+    ;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    background-color: #FFF;
+    width: 1px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 40px;
+    margin-right: 24px;
+}
+
+.circle-active {
+    background: #8075FF;
+}
+
+.circle-outline {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+
+.circle-disabled {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.card-event {
+    display: flex;
+}
+
+.card-event img {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 3px;
+
+}
+
+
+.card-event__content h4 {
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.card-event__content span {
+    font-weight: 600;
+    font-size: 13px;
+    color: #F9CA24;
+}
+
+.event-block__button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #09293D;
+    border-radius: 6px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
