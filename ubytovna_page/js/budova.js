@@ -8,7 +8,7 @@ function fetchAllRooms () {
     const navigationBudova = document.querySelector('.navigation__budova');
 
     let roomsData = [];
-    fetch("http://localhost:5173/pokojeBudovy.json")
+    fetch("https://daniyarorazov.github.io/ubytovna_page/testData/pokojeBudovy.json")
         .then((response) => response.json())
         .then((data) => {
             data.map((item, key) => {
