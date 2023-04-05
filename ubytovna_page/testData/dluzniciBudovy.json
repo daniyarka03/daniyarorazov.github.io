@@ -1,0 +1,17 @@
+[
+  {
+    "jmeno": "Alex",
+    "dluznaCastka": 500,
+    "dniOdSplatnosti": 24
+  },
+  {
+    "jmeno": "Jan",
+    "dluznaCastka": 700,
+    "dniOdSplatnosti": 14
+  },
+  {
+    "jmeno": "Petr",
+    "dluznaCastka": 2400,
+    "dniOdSplatnosti": 7
+  }
+]

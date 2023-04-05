@@ -1,0 +1,17 @@
+[
+  {
+    "jmeno": "Alex",
+    "budova": "Budova 1",
+    "pokoj": "105"
+  },
+  {
+    "jmeno": "John",
+    "budova": "Budova 2",
+    "pokoj": "106"
+  },
+  {
+    "jmeno": "Petr",
+    "budova": "Budova 3",
+    "pokoj": "107"
+  }
+]
