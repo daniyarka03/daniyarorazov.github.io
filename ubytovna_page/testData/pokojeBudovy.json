@@ -1,0 +1,293 @@
+[
+  {
+    "budova": "1",
+    "cisloPokoje": "101",
+    "patro": "1",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "problemy": [
+      {
+        "nazevProblemu": "Neuplata ubytovani"
+      }
+    ],
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "John",
+        "prijmeni": "Smith",
+        "datumPrijezdu": "14.01.2023",
+        "datumOdjezdu": "18.06.2023",
+        "dluh": 200
+      }
+    ],
+    "vybaveni": [
+      {
+        "nazev": "postel",
+        "pocet": 4,
+        "stav": "V provozu"
+      },
+      {
+        "nazev": "lednička",
+        "pocet": 1,
+        "stav": "V provozu"
+      },
+      {
+        "nazev": "skříň",
+        "pocet": 2,
+        "stav": "V provozu"
+      }
+    ],
+    "historiePokoje": [
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "24.03.2023",
+        "stavUkonu": ""
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "102",
+    "patro": "1",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ],
+    "vybaveni": [
+      {
+        "nazev": "postel",
+        "pocet": 4,
+        "stav": "V provozu"
+      },
+      {
+        "nazev": "lednička",
+        "pocet": 0,
+        "stav": "Mimo provoz"
+      },
+      {
+        "nazev": "skříň",
+        "pocet": 2,
+        "stav": "V provozu"
+      }
+    ],
+    "historiePokoje": [
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "24.03.2023",
+        "stavUkonu": ""
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "103",
+    "patro": "1",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "104",
+    "patro": "1",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "105",
+    "patro": "1",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "201",
+    "patro": "2",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "202",
+    "patro": "2",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ]
+  },
+  {
+    "budova": "1",
+    "cisloPokoje": "203",
+    "patro": "2",
+    "cisloUbytovnikuAktualne": 2,
+    "cisloMaxUbytovniku": 4,
+    "problemy": [
+      {
+        "nazevProblemu": "Poškozená lednice"
+      }
+    ],
+    "ubytovniky": [
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      },
+      {
+        "jmeno": "Alex",
+        "prijmeni": "Petrov",
+        "datumPrijezdu": "12.03.2023",
+        "datumOdjezdu": "24.04.2023",
+        "dluh": 0
+      }
+    ],
+    "vybaveni": [
+      {
+        "nazev": "postel",
+        "pocet": 2,
+        "stav": "V provozu"
+      },
+      {
+        "nazev": "lednička",
+        "pocet": 1,
+        "stav": "Mimo provoz"
+      },
+      {
+        "nazev": "skříň",
+        "pocet": 3,
+        "stav": "V provozu"
+      }
+    ],
+    "historiePokoje": [
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      },
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      },
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      },
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      },
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      },
+      {
+        "druhUkonu": "Lednička byla nahrazena",
+        "datumUkonu": "20.03.2023",
+        "stavUkonu": ""
+      }
+    ]
+  }
+]
