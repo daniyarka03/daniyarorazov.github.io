@@ -6,7 +6,7 @@ $(document).ready(() => {
 function dataTableFunctions() {
     const tableBodyContentBudovy = document.querySelector("#budovyTableBodyContent");
 
-    fetch("http://localhost:5173/budovyData.json")
+    fetch("https://daniyarorazov.github.io/ubytovna_page/testData/budovyData.json")
         .then((response) => response.json())
         .then((data) => {
             data.map((item, key) => {
@@ -25,7 +25,7 @@ function dataTableFunctions() {
         })
         .catch((error) => console.error(error));
 
-    fetch("http://localhost:5173/najemniciBudovy.json")
+    fetch("https://daniyarorazov.github.io/ubytovna_page/testData/najemniciBudovy.json")
         .then((response) => response.json())
         .then((data) => {
             data.map((item, key) => {
@@ -43,7 +43,7 @@ function dataTableFunctions() {
         })
         .catch((error) => console.error(error));
 
-    fetch("http://localhost:5173/dluzniciBudovy.json")
+    fetch("https://daniyarorazov.github.io/ubytovna_page/testData/dluzniciBudovy.json")
         .then((response) => response.json())
         .then((data) => {
             data.map((item, key) => {
@@ -61,7 +61,7 @@ function dataTableFunctions() {
         })
         .catch((error) => console.error(error));
 
-    fetch("http://localhost:5173/obsazenostBudovy.json")
+    fetch("https://daniyarorazov.github.io/ubytovna_page/testData/obsazenostBudovy.json")
         .then ((response) => response.json())
         .then((data) => {
             chartFunction(data.flatMap((obj) => Object.values(obj)))
@@ -189,7 +189,7 @@ function calendarFunc() {
             const day = String(currentDate.getDate());
             const year = currentDate.getFullYear();
 
-            fetch("http://localhost:5173/calendarOccupancyDay.json")
+            fetch("https://daniyarorazov.github.io/ubytovna_page/testData/calendarOccupancyDay.json")
                 .then ((response) => response.json())
                 .then((data) => {
                     data.map((item) => {
@@ -257,7 +257,7 @@ function calendarFunc() {
 
 
     function getDataForCalendar(currentDate, month, year) {
-        fetch("http://localhost:5173/calendarOccupancyDay.json")
+        fetch("https://daniyarorazov.github.io/ubytovna_page/testData/calendarOccupancyDay.json")
             .then ((response) => response.json())
             .then((data) => {
                 data.map((item) => {
