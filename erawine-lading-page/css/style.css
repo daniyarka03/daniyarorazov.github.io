@@ -419,6 +419,16 @@ main .information-page__second {
 
 }
 
+@media screen and (max-width: 2240px) {
+    .information-page__first .container,
+    .information-page__second .container,
+    .information-page__third .container {
+        padding-right: 18%;
+        padding-left: 18%;
+    }
+}
+
+
 @media screen and (max-width: 1976px) {
     header .container,
     .information-page__first .container,
@@ -1093,3 +1103,4 @@ main .collapse-menu .collapse-menu__button {
         min-height: calc(800px - 200px);
     }
 }
+
