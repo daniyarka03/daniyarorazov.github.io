@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    showBudovy();
     fetchAllRooms();
 });
 
@@ -6,6 +7,7 @@ function fetchAllRooms () {
     const roomsRowTableFloor1 = document.querySelector('.budova-floor-1');
     const roomsRowTableFloor2 = document.querySelector('.budova-floor-2');
     const navigationBudova = document.querySelector('.navigation__budova');
+    const navigationBudovy = document.querySelector('.navigation__budovy');
 
     let roomsData = [];
     fetch("https://daniyarorazov.github.io/ubytovna_page/testData/pokojeBudovy.json")
@@ -47,13 +49,34 @@ function fetchAllRooms () {
                 }
             });
             navigationBudova.addEventListener('click', showRoomsGrid);
+            navigationBudovy.addEventListener('click', showBudovy);
             showRoomView(roomsData);
         })
         .catch((error) => console.error(error));
 }
 
-function showRoomsGrid() {
+function showBudovy() {
+    $('.arrow-1').hide()
+    $('.arrow-2').hide()
+    $('.arrow-3').hide()
+    $('.section-rooms__content').hide()
+    $('.navigation__budova').hide()
+    $('.navigation__patro').text('')
+    $('.navigation__pokoj').text('')
+    $('.section-room__view').hide()
+    $('.budovy__name').show();
+    $('.navigation__budovy').hide()
+}
 
+$('.budovy__name').click(() => {
+    $('.budovy__name').hide();
+    $('.arrow-1').show();
+    $('.navigation__budova').show();
+    $('.navigation__budovy').show()
+
+    showRoomsGrid();
+})
+function showRoomsGrid() {
     const roomsContentTable = document.querySelector('.section-rooms__content');
     const roomView = document.querySelector('.section-room__view');
     const roomUbytovniky = document.querySelectorAll('.room-ubytovnik');

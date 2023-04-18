@@ -59,18 +59,18 @@
     "cisloMaxUbytovniku": 4,
     "ubytovniky": [
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
-        "datumPrijezdu": "12.03.2023",
-        "datumOdjezdu": "24.04.2023",
+        "jmeno": "Athena ",
+        "prijmeni": "Roberts",
+        "datumPrijezdu": "14.01.2023",
+        "datumOdjezdu": "24.05.2023",
         "dluh": 0
       },
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
-        "datumPrijezdu": "12.03.2023",
-        "datumOdjezdu": "24.04.2023",
-        "dluh": 0
+        "jmeno": "Fintan ",
+        "prijmeni": "Townsend",
+        "datumPrijezdu": "11.03.2023",
+        "datumOdjezdu": "21.04.2023",
+        "dluh": 200
       }
     ],
     "vybaveni": [
@@ -113,8 +113,8 @@
         "dluh": 0
       },
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
+        "jmeno": "Paige ",
+        "prijmeni": "Gordon",
         "datumPrijezdu": "12.03.2023",
         "datumOdjezdu": "24.04.2023",
         "dluh": 0
@@ -129,15 +129,15 @@
     "cisloMaxUbytovniku": 4,
     "ubytovniky": [
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
+        "jmeno": "Finnian ",
+        "prijmeni": "Singleton",
         "datumPrijezdu": "12.03.2023",
         "datumOdjezdu": "24.04.2023",
         "dluh": 0
       },
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
+        "jmeno": "Owain ",
+        "prijmeni": "Mayer",
         "datumPrijezdu": "12.03.2023",
         "datumOdjezdu": "24.04.2023",
         "dluh": 0
@@ -152,15 +152,15 @@
     "cisloMaxUbytovniku": 4,
     "ubytovniky": [
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
+        "jmeno": "Donna",
+        "prijmeni": "Whitehead",
         "datumPrijezdu": "12.03.2023",
         "datumOdjezdu": "24.04.2023",
         "dluh": 0
       },
       {
-        "jmeno": "Alex",
-        "prijmeni": "Petrov",
+        "jmeno": "Paige",
+        "prijmeni": "Gordon",
         "datumPrijezdu": "12.03.2023",
         "datumOdjezdu": "24.04.2023",
         "dluh": 0

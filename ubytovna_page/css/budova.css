@@ -106,3 +106,16 @@ tr:nth-child(even) {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.budovy__name {
+    display: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+
+
+.budovy__name:hover {
+    color: #E24E1B;
+}
