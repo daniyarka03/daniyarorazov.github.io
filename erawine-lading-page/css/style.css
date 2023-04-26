@@ -2,9 +2,9 @@
     font-family: 'FuturaTOT';
     src: url('../fonts/FuturaTOT-Ligh.eot');
     src: url('../fonts/FuturaTOT-Ligh.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FuturaTOT-Ligh.woff2') format('woff2'),
-    url('../fonts/FuturaTOT-Ligh.woff') format('woff'),
-    url('../fonts/FuturaTOT-Ligh.ttf') format('truetype');
+        url('../fonts/FuturaTOT-Ligh.woff2') format('woff2'),
+        url('../fonts/FuturaTOT-Ligh.woff') format('woff'),
+        url('../fonts/FuturaTOT-Ligh.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -14,9 +14,9 @@
     font-family: 'Copperplate Gothic';
     src: url('../fonts/CopperplateGothic-Light.eot');
     src: url('../fonts/CopperplateGothic-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/CopperplateGothic-Light.woff2') format('woff2'),
-    url('../fonts/CopperplateGothic-Light.woff') format('woff'),
-    url('../fonts/CopperplateGothic-Light.ttf') format('truetype');
+        url('../fonts/CopperplateGothic-Light.woff2') format('woff2'),
+        url('../fonts/CopperplateGothic-Light.woff') format('woff'),
+        url('../fonts/CopperplateGothic-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -26,9 +26,9 @@
     font-family: 'FuturaTOT';
     src: url('../fonts/FuturaTOT-Demi.eot');
     src: url('../fonts/FuturaTOT-Demi.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FuturaTOT-Demi.woff2') format('woff2'),
-    url('../fonts/FuturaTOT-Demi.woff') format('woff'),
-    url('../fonts/FuturaTOT-Demi.ttf') format('truetype');
+        url('../fonts/FuturaTOT-Demi.woff2') format('woff2'),
+        url('../fonts/FuturaTOT-Demi.woff') format('woff'),
+        url('../fonts/FuturaTOT-Demi.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -38,9 +38,9 @@
     font-family: 'Copperplate Gothic';
     src: url('../fonts/CopperplateGothic-Bold.eot');
     src: url('../fonts/CopperplateGothic-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/CopperplateGothic-Bold.woff2') format('woff2'),
-    url('../fonts/CopperplateGothic-Bold.woff') format('woff'),
-    url('../fonts/CopperplateGothic-Bold.ttf') format('truetype');
+        url('../fonts/CopperplateGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CopperplateGothic-Bold.woff') format('woff'),
+        url('../fonts/CopperplateGothic-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -50,9 +50,9 @@
     font-family: 'FuturaTOT';
     src: url('../fonts/FuturaTOT-Book.eot');
     src: url('../fonts/FuturaTOT-Book.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FuturaTOT-Book.woff2') format('woff2'),
-    url('../fonts/FuturaTOT-Book.woff') format('woff'),
-    url('../fonts/FuturaTOT-Book.ttf') format('truetype');
+        url('../fonts/FuturaTOT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaTOT-Book.woff') format('woff'),
+        url('../fonts/FuturaTOT-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -62,9 +62,9 @@
     font-family: 'FuturaTOT';
     src: url('../fonts/FuturaTOT-Bold.eot');
     src: url('../fonts/FuturaTOT-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FuturaTOT-Bold.woff2') format('woff2'),
-    url('../fonts/FuturaTOT-Bold.woff') format('woff'),
-    url('../fonts/FuturaTOT-Bold.ttf') format('truetype');
+        url('../fonts/FuturaTOT-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaTOT-Bold.woff') format('woff'),
+        url('../fonts/FuturaTOT-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -80,7 +80,11 @@
     letter-spacing: 2.625px;
 }
 
-h1, h2, h3, h4, button {
+h1,
+h2,
+h3,
+h4,
+button {
     font-family: 'Copperplate Gothic', sans-serif;
     font-weight: bold;
     letter-spacing: 2.2461px;
@@ -169,7 +173,7 @@ header .navbar .navbar__form button {
     float: right;
 }
 
-header  {
+header {
     height: 110vh;
     min-height: 800px;
     background-size: cover;
@@ -222,6 +226,7 @@ header .sidebar-contact {
         padding-left: 10%;
         padding-right: 10%;
     }
+
     header .navbar .navbar__content {
         width: 100%;
         margin: auto;
@@ -245,6 +250,7 @@ header .sidebar-contact {
         padding-left: 5%;
         padding-right: 5%;
     }
+
     header .navbar .navbar__content {
         width: 100%;
         margin: auto;
@@ -266,6 +272,7 @@ header .sidebar-contact {
         width: 150px;
     }
 }
+
 @media screen and (max-width: 733px) {
 
 
@@ -378,6 +385,64 @@ header .sidebar a {
     z-index: -32131;
 }
 
+.video-background {
+    position: absolute;
+    z-index: -3213;
+    width: 100%;
+    height: 100vh;
+}
+
+.stop__icon {
+    width: 24px;
+    cursor: pointer;
+
+}
+
+.play__icon {
+    width: 24px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.section-control-video {
+    position: absolute;
+    right: 12%;
+    bottom: 12%;
+}
+
+
+.section-control-video .stop-video,
+.section-control-video .mute-video {
+    background: none;
+    border: none;
+}
+
+
+.section-control-video .mute-video {
+    margin-right: 10px;
+}
+
+
+.sound__icon {
+    display: none;
+
+}
+
+.section-control-video .mute-video img.mute__icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.sound__icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.section-control-video .stop-video img {
+    width: 20px;
+}
+
 
 @media screen and (max-width: 1127px) {
     #myVideo {
@@ -406,7 +471,8 @@ header .sidebar a {
 
 /* Main page */
 
-main .information-page__first, main .information-page__third {
+main .information-page__first,
+main .information-page__third {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #333333;
@@ -420,6 +486,7 @@ main .information-page__second {
 }
 
 @media screen and (max-width: 2240px) {
+
     .information-page__first .container,
     .information-page__second .container,
     .information-page__third .container {
@@ -430,6 +497,7 @@ main .information-page__second {
 
 
 @media screen and (max-width: 1976px) {
+
     header .container,
     .information-page__first .container,
     .information-page__second .container,
@@ -440,6 +508,7 @@ main .information-page__second {
 }
 
 @media screen and (max-width: 1512px) {
+
     header .container,
     .information-page__first .container,
     .information-page__second .container,
@@ -455,7 +524,8 @@ main .information-page__second {
         display: none;
     }
 
-    main .information-page__first, main .information-page__third {
+    main .information-page__first,
+    main .information-page__third {
         grid-template-columns: 1fr;
     }
 
@@ -494,8 +564,7 @@ main .information-page__fourth .information-page__content {
 
 main .information-page__first .information-page__content h2,
 main .information-page__third .information-page__content h2,
-main .information-page__fourth .information-page__content h2
-{
+main .information-page__fourth .information-page__content h2 {
     color: #E8E8E8;
     margin-bottom: 52px;
     text-align: right;
@@ -516,10 +585,10 @@ main .information-page__fourth .information-page__content h2::before {
     background-color: #86754d;
     margin-right: 20px;
 }
+
 main .information-page__first .information-page__content p,
 main .information-page__third .information-page__content p,
-main .information-page__fourth .information-page__content p
-{
+main .information-page__fourth .information-page__content p {
     color: #C9C9C9;
     margin-bottom: 46px;
     text-align: justify;
@@ -566,6 +635,7 @@ main .information-page__second .information-page__content h2::before {
     background-color: #FFF;
     margin-right: 10px;
 }
+
 main .information-page__second .information-page__content p {
     color: #C9C9C9;
     margin-bottom: 46px;
@@ -684,7 +754,8 @@ main .collapse-menu .collapse-menu__button {
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -730,7 +801,9 @@ main .collapse-menu .collapse-menu__button {
     transition: max-height 0.6s ease-out;
 }
 
-.panel-content h2, h3, h4 {
+.panel-content h2,
+h3,
+h4 {
     font-family: 'FuturaTOT', sans-serif;
     font-weight: 600;
 }
@@ -748,7 +821,8 @@ main .collapse-menu .collapse-menu__button {
     margin-bottom: 30px;
 }
 
-.panel-menu .panel-content p, h4 {
+.panel-menu .panel-content p,
+h4 {
     color: #C9C9C9;
     font-size: 20px;
     font-weight: normal;
@@ -827,7 +901,8 @@ main .collapse-menu .collapse-menu__button {
     }
 }
 
-.slider-next, .slider-prev {
+.slider-next,
+.slider-prev {
     background: none;
     border: none;
 }
@@ -845,7 +920,8 @@ main .collapse-menu .collapse-menu__button {
     transition: 0.2s ease;
 }
 
-.slider-next img:hover, .slider-prev img:hover {
+.slider-next img:hover,
+.slider-prev img:hover {
     opacity: 0.5;
 }
 
@@ -854,7 +930,8 @@ main .collapse-menu .collapse-menu__button {
     font-size: 30px;
 }
 
-.wine-list .panel-content p, h4 {
+.wine-list .panel-content p,
+h4 {
     font-size: 30px;
 }
 
@@ -922,6 +999,7 @@ main .collapse-menu .collapse-menu__button {
         padding-right: 10%;
     }
 }
+
 @media screen and (max-width: 613px) {
     .panel-menu .panel-grid__row {
         margin-bottom: 40px;
@@ -1030,6 +1108,7 @@ main .collapse-menu .collapse-menu__button {
     .footer-content {
         row-gap: 10px;
     }
+
     .footer-content .footer__info .footer-contact__block {
         flex-direction: column;
         justify-content: center;
@@ -1038,13 +1117,15 @@ main .collapse-menu .collapse-menu__button {
 }
 
 @media screen and (max-width: 442px) {
+
     main .information-page__first .information-page__content h2::before,
     main .information-page__third .information-page__content h2::before,
-    main .information-page__second .information-page__content h2::before
-    {
+    main .information-page__second .information-page__content h2::before {
         display: none;
     }
-    .information-page__first .information-page__content p, main .information-page__third .information-page__content p {
+
+    .information-page__first .information-page__content p,
+    main .information-page__third .information-page__content p {
         width: 80vw;
     }
 
@@ -1070,10 +1151,15 @@ main .collapse-menu .collapse-menu__button {
     .panel-content__price span {
         font-size: 24px;
     }
+
     main .collapse-menu .collapse-menu__title {
         font-size: 24px;
     }
-    .panel-menu .panel-content h2, .panel-menu .panel-content h3, .wine-list .panel-content p, h4 {
+
+    .panel-menu .panel-content h2,
+    .panel-menu .panel-content h3,
+    .wine-list .panel-content p,
+    h4 {
         font-size: 24px;
     }
 }
@@ -1103,4 +1189,3 @@ main .collapse-menu .collapse-menu__button {
         min-height: calc(800px - 200px);
     }
 }
-

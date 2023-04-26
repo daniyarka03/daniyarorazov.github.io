@@ -151,3 +151,47 @@ sliderPrev.addEventListener('click', () => {
         }
     })
 });
+
+$('.mute-video').click(() => {
+    if ($("video").prop('muted')) {
+        $("video").prop('muted', false);
+        $(".sound__icon").show();
+        $(".mute__icon").hide();
+    } else {
+        $("video").prop('muted', true);
+        $(".sound__icon").hide();
+        $(".mute__icon").show();
+    }
+    
+})
+
+const defaultAttributes = {
+    autoplay: true,
+    controls: false,
+    loop: true,
+    playsInline: true
+}
+
+var instance = new vidbg('.video-background', 
+{
+    mp4: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-awc.mp4',
+    // webm: 'media/webm_video.webm',
+    poster: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-cover.jpg',
+    
+},
+defaultAttributes
+)
+instance.playVideo();
+
+const stopVideo = document.querySelector('.stop-video');
+stopVideo.addEventListener('click', () => {
+    if (instance.isVideoPlaying()) {
+        instance.pauseVideo();
+        $(".stop__icon").hide();
+        $(".play__icon").show();
+    } else {
+        instance.playVideo();
+        $(".play__icon").hide();
+        $(".stop__icon").show();
+    }
+})

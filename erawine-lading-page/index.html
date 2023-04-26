@@ -1,18 +1,23 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AWC</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vidbg.css">
+    <script src="js/vidbg.js"></script>
 </head>
+
 <body>
     <header>
-        <video autoplay muted loop id="myVideo">
-            <source src="img/background-video-awc.mp4" type="video/mp4">
-        </video>
+        <section class="video-background" id="#myVideo" style="">
+
+        </section>
+
         <nav class="navbar">
             <div class="navbar__content">
                 <div class="navbar__menu" id="openSidebar">
@@ -59,7 +64,8 @@
         <section class="sidebar-contact">
             <div class="sidebar-contact__content ">
                 <h2 class="sidebar-contact__title" lang="cz">Zanechte nám svůj kontakt a my se vám ozveme zpět</h2>
-                <h2 class="sidebar-contact__title" lang="en">Leave us your contact details and we will get back to you</h2>
+                <h2 class="sidebar-contact__title" lang="en">Leave us your contact details and we will get back to you
+                </h2>
                 <form class="sidebar-contact__form" lang="cz">
                     <input type="text" class="sidebar-contact__input" placeholder="Jméno">
                     <input type="text" class="sidebar-contact__input" placeholder="Příjmení">
@@ -81,58 +87,86 @@
                 <span>+420 774 093 594</span>
             </div>
         </section>
+        <section class="section-control-video">
+            <button class="mute-video">
+                <img class="mute__icon" src="./img/mute-sound-icon.png" alt="">
+                <img class="sound__icon" src="./img/sound-icon.png" alt="">
+            </button>
+            <button class="stop-video">
+                <img class="stop__icon" src="./img/pause-icon.png" alt="">
+                <img class="play__icon" src="./img/play-icon.png" alt="">
+            </button>
+
+        </section>
     </header>
     <main>
 
         <section class="section information-page__first" id="sectionAmbassador">
-                <div class="information-page__img">
+            <div class="information-page__img">
+            </div>
+            <div class="container">
+                <div class="information-page__content" lang="cz">
+                    <h2>AMBASSADOR WINE CLUB</h2>
+                    <p>
+                        Ambassador Wine Club je projektem společnosti Erawine, dodavatele prémiových vín pro privátní
+                        klientelu a Horeca. V našem portfoliu najdete 150 000 láhví těch nejlepších vín z regionů
+                        Itálie, Francie, Německa a Rakouska.
+                        <br>
+                        <br>
+                        V absolutním soukromí, uprostřed 320 ha čisté přírody se nachází jedinečný resort, který získal
+                        několik prestižních ocenění za architekturu a design. Součástí celého areálu je i naše
+                        ekologická farma zaměřena na produkci masného skotu, ovcí, sladkovodních ryb ve dvanácti
+                        rybnících a produkci ovoce z našich sadů.
+                        <br>
+                        <br>
+                        Ambassador Wine Club je ideálním místem pro milovníky vína a špičkové gastronomie, který nabízí
+                        velkorysý prostor pro akce o kapacitě 6 – 18 osob, včetně ubytování.
+                        <br>
+                        <br>
+                        Jsme připraveni splnit vaše individuální požadavky a přání!
+                    </p>
+                    <button class="button-outline-yellow information-page__button">Vstoupit do klubu</button>
                 </div>
-                <div class="container">
-                    <div class="information-page__content" lang="cz">
-                        <h2>AMBASSADOR WINE CLUB</h2>
-                        <p>
-                            Ambassador Wine Club je projektem společnosti Erawine, dodavatele prémiových vín pro privátní klientelu a Horeca.  V našem portfoliu najdete 150 000 láhví těch nejlepších vín z regionů Itálie, Francie, Německa a Rakouska.
-                            <br>
-                            <br>
-                            V absolutním soukromí, uprostřed 320 ha čisté přírody se nachází jedinečný resort, který získal několik prestižních ocenění za architekturu a design. Součástí celého areálu je i naše ekologická farma zaměřena na produkci masného skotu, ovcí, sladkovodních ryb ve dvanácti rybnících a produkci ovoce z našich sadů.
-                            <br>
-                            <br>
-                            Ambassador Wine Club je ideálním místem pro milovníky vína a špičkové gastronomie, který nabízí velkorysý prostor pro akce o kapacitě 6 – 18 osob, včetně ubytování.
-                            <br>
-                            <br>
-                            Jsme připraveni splnit vaše individuální požadavky a přání!
-                        </p>
-                        <button class="button-outline-yellow information-page__button">Vstoupit do klubu</button>
-                    </div>
-                    <div class="information-page__content" lang="en">
-                        <h2>AMBASSADOR WINE CLUB</h2>
-                        <p>
-                            Ambassador Wine Club is a project of Erawine, a supplier of premium wines for private clients, and Horeca.  Our portfolio includes 150,000 bottles of the best wines from the regions of Italy, France, Germany and Austria.
-                            <br>
-                            <br>
-                            In absolute privacy, surrounded by 320 hectares of pure nature, is a unique resort that has won several prestigious awards for architecture and design. The whole complex includes our organic farm dedicated to the production of beef cattle, sheep, freshwater fish in twelve ponds and fruit from our orchards.
-                            <br>
-                            <br>
-                            The Ambassador Wine Club is the ideal venue for wine lovers and fine dining, offering generous event space for 6-18 people, including accommodation.
-                            <br>
-                            <br>
-                            We are ready to meet your individual requirements and wishes!
-                        </p>
-                        <button class="button-outline-yellow information-page__button">Join the club</button>
-                    </div>
+                <div class="information-page__content" lang="en">
+                    <h2>AMBASSADOR WINE CLUB</h2>
+                    <p>
+                        Ambassador Wine Club is a project of Erawine, a supplier of premium wines for private clients,
+                        and Horeca. Our portfolio includes 150,000 bottles of the best wines from the regions of Italy,
+                        France, Germany and Austria.
+                        <br>
+                        <br>
+                        In absolute privacy, surrounded by 320 hectares of pure nature, is a unique resort that has won
+                        several prestigious awards for architecture and design. The whole complex includes our organic
+                        farm dedicated to the production of beef cattle, sheep, freshwater fish in twelve ponds and
+                        fruit from our orchards.
+                        <br>
+                        <br>
+                        The Ambassador Wine Club is the ideal venue for wine lovers and fine dining, offering generous
+                        event space for 6-18 people, including accommodation.
+                        <br>
+                        <br>
+                        We are ready to meet your individual requirements and wishes!
+                    </p>
+                    <button class="button-outline-yellow information-page__button">Join the club</button>
                 </div>
+            </div>
         </section>
         <section class="section information-page__second" id="sectionAkce">
             <div class="container">
                 <div class="information-page__content" lang="cz">
                     <h2>AKCE VE WINE CLUBU</h2>
                     <p>
-                        Ambassador Wine Club nabízí akce pro 6 – 18 osob v unikátním prostředí, kombinujícím moderní architekturu, čistou přírodu a naprosté soukromí. Samozřejmostí je ubytování v designových apartmánech.
+                        Ambassador Wine Club nabízí akce pro 6 – 18 osob v unikátním prostředí, kombinujícím moderní
+                        architekturu, čistou přírodu a naprosté soukromí. Samozřejmostí je ubytování v designových
+                        apartmánech.
                         <br><br>
-                        Zaměřujeme se na špičkovou gastronomii za použití bio surovin z naší místní ekologické farmy. Společně s našimi someliéry vám představíme selekci prémiových vín z jedinečného portfolia více než 150 000 lahví vín.
+                        Zaměřujeme se na špičkovou gastronomii za použití bio surovin z naší místní ekologické farmy.
+                        Společně s našimi someliéry vám představíme selekci prémiových vín z jedinečného portfolia více
+                        než 150 000 lahví vín.
                         <br><br>
 
-                        Naše služby oceníte při pořádání nejrůznějších oslav, obchodních setkání nebo teambuildingů. Nabízíme také individuální vzdělávací akce v oblasti vína.
+                        Naše služby oceníte při pořádání nejrůznějších oslav, obchodních setkání nebo teambuildingů.
+                        Nabízíme také individuální vzdělávací akce v oblasti vína.
                         <br><br>
 
                         Záleží jen na vašich představách a přáních
@@ -142,11 +176,16 @@
                 <div class="information-page__content" lang="en">
                     <h2>EVENTS IN THE WINE CLUB</h2>
                     <p>
-                        The Ambassador Wine Club offers events for 6 - 18 people in a unique setting combining modern architecture, pure nature and total privacy. Accommodation in designer suites is a matter of course.
+                        The Ambassador Wine Club offers events for 6 - 18 people in a unique setting combining modern
+                        architecture, pure nature and total privacy. Accommodation in designer suites is a matter of
+                        course.
                         <br><br>
-                        We focus on top quality gastronomy using organic ingredients from our local organic farm. Together with our sommeliers, we will present a selection of premium wines from our unique portfolio of over 150,000 bottles of wine.
+                        We focus on top quality gastronomy using organic ingredients from our local organic farm.
+                        Together with our sommeliers, we will present a selection of premium wines from our unique
+                        portfolio of over 150,000 bottles of wine.
                         <br><br>
-                        You will appreciate our services when organizing various celebrations, business meetings or teambuilding. We also offer individual educational events in the field of wine.
+                        You will appreciate our services when organizing various celebrations, business meetings or
+                        teambuilding. We also offer individual educational events in the field of wine.
                         <br><br>
                         It depends on your ideas and wishes
                     </p>
@@ -163,11 +202,15 @@
                 <div class="information-page__content" lang="cz">
                     <h2>GASTRONOMIE</h2>
                     <p>
-                        Naše menu je vždy primárně sestaveno z bio surovin naší ekologické farmy a zpravidla odráží aktuální sezónní produkci. Věříme, že kvalita surovin a péče o detaily při přípravě jídel se promítají do skvělé chuti našich pokrmů.
+                        Naše menu je vždy primárně sestaveno z bio surovin naší ekologické farmy a zpravidla odráží
+                        aktuální sezónní produkci. Věříme, že kvalita surovin a péče o detaily při přípravě jídel se
+                        promítají do skvělé chuti našich pokrmů.
                         <br><br>
-                        Současně se zaměřujeme na snoubení jednotlivých chodů s vybranými víny každého hosta tak, abychom docílili maximálního gurmánského zážitku.
+                        Současně se zaměřujeme na snoubení jednotlivých chodů s vybranými víny každého hosta tak,
+                        abychom docílili maximálního gurmánského zážitku.
                         <br><br>
-                        Při tvorbě konkrétní nabídky ale vždy přihlížíme k individuálním přáním klienta. Jaká jsou ta vaše?
+                        Při tvorbě konkrétní nabídky ale vždy přihlížíme k individuálním přáním klienta. Jaká jsou ta
+                        vaše?
 
                     </p>
                     <button class="button-outline-yellow information-page__button">Vstoupit do klubu</button>
@@ -175,11 +218,16 @@
                 <div class="information-page__content" lang="en">
                     <h2>GASTRONOMY</h2>
                     <p>
-                        Our menu is always primarily made up of organic ingredients from our organic farm and usually reflects the current seasonal production. We believe that the quality of the ingredients and attention to detail in the preparation of our food translates into the great taste of our dishes.
+                        Our menu is always primarily made up of organic ingredients from our organic farm and usually
+                        reflects the current seasonal production. We believe that the quality of the ingredients and
+                        attention to detail in the preparation of our food translates into the great taste of our
+                        dishes.
                         <br><br>
-                        At the same time, we focus on pairing each course with the selected wines of each guest to achieve the ultimate gourmet experience.
+                        At the same time, we focus on pairing each course with the selected wines of each guest to
+                        achieve the ultimate gourmet experience.
                         <br><br>
-                        However, we always take into account the individual wishes of the client when creating a specific offer. What are yours?
+                        However, we always take into account the individual wishes of the client when creating a
+                        specific offer. What are yours?
                     </p>
                     <button class="button-outline-yellow information-page__button">Join the club</button>
                 </div>
@@ -194,7 +242,7 @@
             </div>
             <div class="container" lang="en">
                 <div></div>
-                    <h2 class="collapse-menu__title">SHOW MENU</h2>
+                <h2 class="collapse-menu__title">SHOW MENU</h2>
                 <button class="collapse-menu__button">Expand</button>
             </div>
         </section>
@@ -229,35 +277,35 @@
                     </p>
                     <h2>VÍNA</h2>
                     <p>
-                        Chateau La Conseillante	Conseillante (La) <br>	0,75	2007	Pomerol
+                        Chateau La Conseillante Conseillante (La) <br> 0,75 2007 Pomerol
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Rauzan Ségla	Rauzan Ségla <br>	0,75	2008	Margaux
+                        Chateau Rauzan Ségla Rauzan Ségla <br> 0,75 2008 Margaux
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Vieux Château Certan	Vieux Certan <br>	0,75	2009	Pomerol
+                        Vieux Château Certan Vieux Certan <br> 0,75 2009 Pomerol
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Troplong Mondot	Troplong Mondot <br>	0,75 	2009	Saint-Emilion
+                        Chateau Troplong Mondot Troplong Mondot <br> 0,75 2009 Saint-Emilion
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau La Mission Haut-Brion	Mission Haut-Brion (La) <br>	0,75 	2008	Pessac-Léognan
+                        Chateau La Mission Haut-Brion Mission Haut-Brion (La) <br> 0,75 2008 Pessac-Léognan
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Palmer	Palmer <br>	0,75	2008	Margaux
+                        Chateau Palmer Palmer <br> 0,75 2008 Margaux
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Mouton Rothschild Mouton Rothschild <br>	0,75	2008	Pauilla
+                        Chateau Mouton Rothschild Mouton Rothschild <br> 0,75 2008 Pauilla
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Léoville las Cases	Léoville las Cases <br>	0,75	2008	Saint-Julien
+                        Chateau Léoville las Cases Léoville las Cases <br> 0,75 2008 Saint-Julien
                     </p>
                 </div>
                 <div class="panel-content__text" lang="en">
@@ -282,35 +330,35 @@
                     </p>
                     <h2>VÍNA</h2>
                     <p>
-                        Chateau La Conseillante	Conseillante (La) <br>	0,75	2007	Pomerol
+                        Chateau La Conseillante Conseillante (La) <br> 0,75 2007 Pomerol
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Rauzan Ségla	Rauzan Ségla <br>	0,75	2008	Margaux
+                        Chateau Rauzan Ségla Rauzan Ségla <br> 0,75 2008 Margaux
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Vieux Château Certan	Vieux Certan <br>	0,75	2009	Pomerol
+                        Vieux Château Certan Vieux Certan <br> 0,75 2009 Pomerol
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Troplong Mondot	Troplong Mondot <br>	0,75 	2009	Saint-Emilion
+                        Chateau Troplong Mondot Troplong Mondot <br> 0,75 2009 Saint-Emilion
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau La Mission Haut-Brion	Mission Haut-Brion (La) <br>	0,75 	2008	Pessac-Léognan
+                        Chateau La Mission Haut-Brion Mission Haut-Brion (La) <br> 0,75 2008 Pessac-Léognan
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Palmer	Palmer <br>	0,75	2008	Margaux
+                        Chateau Palmer Palmer <br> 0,75 2008 Margaux
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Mouton Rothschild Mouton Rothschild <br>	0,75	2008	Pauilla
+                        Chateau Mouton Rothschild Mouton Rothschild <br> 0,75 2008 Pauilla
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Chateau Léoville las Cases	Léoville las Cases <br>	0,75	2008	Saint-Julien
+                        Chateau Léoville las Cases Léoville las Cases <br> 0,75 2008 Saint-Julien
                     </p>
                 </div>
                 <div class="panel-content__price">
@@ -320,7 +368,7 @@
                         Cena zahrnuje menu, vína <br> a ubytování se snídaní
                     </span>
                     <span lang="en">
-                       Price includes menu, wine <br> and accommodation with breakfast
+                        Price includes menu, wine <br> and accommodation with breakfast
                     </span>
                 </div>
             </div>
@@ -346,35 +394,35 @@
 
                     <h2>VÍNA</h2>
                     <p>
-                        Roberto Voerzio	Barbera d Alba il Cerreto <br>	0,75	2016	La Morra
+                        Roberto Voerzio Barbera d Alba il Cerreto <br> 0,75 2016 La Morra
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Ettore Germano	Barolo del Comune di-Serralunga <br>	0,75	2016	Serralunga d'Alba
+                        Ettore Germano Barolo del Comune di-Serralunga <br> 0,75 2016 Serralunga d'Alba
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Cascina Morassino	Barbaresco <br> 0,75	2012	Barbaresco
+                        Cascina Morassino Barbaresco <br> 0,75 2012 Barbaresco
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Ettore Germano	Barolo Cerretta <br>	0,75	2012	Serralunga d'Alba
+                        Ettore Germano Barolo Cerretta <br> 0,75 2012 Serralunga d'Alba
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Paolo Scavino	Barolo Bric Del Fiasc® <br>	0,75	2015	Bric Del Fiasc®
+                        Paolo Scavino Barolo Bric Del Fiasc® <br> 0,75 2015 Bric Del Fiasc®
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Sottimano	Currá <br>	0,75	2014	Barbaresco
+                        Sottimano Currá <br> 0,75 2014 Barbaresco
                     </p>
                     <span class="line">-</span>
                     <p>
-                        La Tartufaia	Barolo <br>	0,75	2012	La Morra
+                        La Tartufaia Barolo <br> 0,75 2012 La Morra
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Gaja	Barbaresco <br>	0,75	2008	Barbaresco
+                        Gaja Barbaresco <br> 0,75 2008 Barbaresco
                     </p>
                 </div>
                 <div class="panel-content__text" lang="en">
@@ -434,7 +482,7 @@
                         Cena zahrnuje menu, vína <br> a ubytování se snídaní
                     </span>
                     <span lang="en">
-                      Price includes menu, wines <br> and accommodation with breakfast
+                        Price includes menu, wines <br> and accommodation with breakfast
                     </span>
                 </div>
             </div>
@@ -463,35 +511,35 @@
                     </p>
                     <h2>VÍNA</h2>
                     <p>
-                        Podere Le Ripi	Brunello di Montalcino Amore e Magia <br>	0,75	2016	Montalcino
+                        Podere Le Ripi Brunello di Montalcino Amore e Magia <br> 0,75 2016 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Casanova di Neri	Brunello di Montalcino Tenuta Nuova <br>	0,75	2017	Montalcino
+                        Casanova di Neri Brunello di Montalcino Tenuta Nuova <br> 0,75 2017 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Il Marroneto	Brunello di Montalcino <br>	0,75	2012	Montalcino
+                        Il Marroneto Brunello di Montalcino <br> 0,75 2012 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Biondi Santi	Brunello di Montalcino <br>	0,75	2007	Montalcino
+                        Biondi Santi Brunello di Montalcino <br> 0,75 2007 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Gianni Brunelli	Brunello di Montalcino Riserva <br>	0,75	2013	Montalcino
+                        Gianni Brunelli Brunello di Montalcino Riserva <br> 0,75 2013 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Tenuta dell’Ornellaia	Ornellaia <br>	0,75	2009	Bolgheri
+                        Tenuta dell’Ornellaia Ornellaia <br> 0,75 2009 Bolgheri
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Il Marroneto	Brunello di Montalcino Madonna Delle Grazie <br>	0,75	2013	Montalcino
+                        Il Marroneto Brunello di Montalcino Madonna Delle Grazie <br> 0,75 2013 Montalcino
                     </p>
                     <span class="line">-</span>
                     <p>
-                        Gaja	Brunello di Montalcino Sugarille <br>	0,75	2007	Montalcino
+                        Gaja Brunello di Montalcino Sugarille <br> 0,75 2007 Montalcino
                     </p>
                 </div>
                 <div class="panel-content__text" lang="en">
@@ -565,22 +613,33 @@
                 <div class="information-page__content" lang="cz">
                     <h2>PRÉMIOVÁ VÍNA</h2>
                     <p>
-                        V našem sklepě vám představíme jedinečnou selekci prémiových vín z portfolia více než 150 000 lahví naší mateřské společnosti Erawine. Jedná se o produkci těch nejlepších vinařství z Francie, Itálie, Německa a Rakouska.
+                        V našem sklepě vám představíme jedinečnou selekci prémiových vín z portfolia více než 150 000
+                        lahví naší mateřské společnosti Erawine. Jedná se o produkci těch nejlepších vinařství z
+                        Francie, Itálie, Německa a Rakouska.
                         <br><br>
-                        Zakládáme si na profesionální přípravě vína ke konzumaci. S ohledem na titul a ročník určíme optimální dobu dekantace pro váš nejlepší vinný zážitek. Každý milovník vína jistě ocení tuto nadstandardní péči, přesahující běžnou praxi i těch nejlepších restaurací.
+                        Zakládáme si na profesionální přípravě vína ke konzumaci. S ohledem na titul a ročník určíme
+                        optimální dobu dekantace pro váš nejlepší vinný zážitek. Každý milovník vína jistě ocení tuto
+                        nadstandardní péči, přesahující běžnou praxi i těch nejlepších restaurací.
                         <br><br>
-                        V případě vašeho zájmu vám rádi poskytneme kompletní velkoobchodní ceník Erawine, určený pro privátní klienty a Horeca.
+                        V případě vašeho zájmu vám rádi poskytneme kompletní velkoobchodní ceník Erawine, určený pro
+                        privátní klienty a Horeca.
                     </p>
                     <button class="button-outline-yellow information-page__button">Vstoupit do klubu</button>
                 </div>
                 <div class="information-page__content" lang="en">
                     <h2>PREMIUM WINES</h2>
                     <p>
-                        In our cellar we will present a unique selection of premium wines from the portfolio of more than 150,000 bottles of our parent company Erawine. These are the production of the best wineries from France, Italy, Germany and Austria.
+                        In our cellar we will present a unique selection of premium wines from the portfolio of more
+                        than 150,000 bottles of our parent company Erawine. These are the production of the best
+                        wineries from France, Italy, Germany and Austria.
                         <br><br>
-                        We pride ourselves on the professional preparation of wine for consumption. Taking into account the title and vintage, we will determine the optimal decanting time for your best wine experience. Every wine lover will appreciate this superior care, going beyond the normal practice of even the best restaurants.
+                        We pride ourselves on the professional preparation of wine for consumption. Taking into account
+                        the title and vintage, we will determine the optimal decanting time for your best wine
+                        experience. Every wine lover will appreciate this superior care, going beyond the normal
+                        practice of even the best restaurants.
                         <br><br>
-                        If you are interested, we will be happy to provide you with a complete Erawine wholesale price list for private clients and Horeca.
+                        If you are interested, we will be happy to provide you with a complete Erawine wholesale price
+                        list for private clients and Horeca.
                     </p>
                     <button class="button-outline-yellow information-page__button">Join the club</button>
                 </div>
@@ -750,7 +809,8 @@
                     <div class="footer__social-icons">
                         <a href="https://www.facebook.com/erawine.cz/"><img src="img/Facebook.svg" alt=""></a>
                         <a href="https://www.instagram.com/erawine_cz/"><img src="img/Instagram.svg" alt=""></a>
-                        <a href="https://www.youtube.com/@ambassadorwineclub/featured"><img src="img/YouTube.svg" alt=""></a>
+                        <a href="https://www.youtube.com/@ambassadorwineclub/featured"><img src="img/YouTube.svg"
+                                alt=""></a>
                     </div>
                     <div class="footer-contact__block">
                         <div class="footer__address">
@@ -777,4 +837,5 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
