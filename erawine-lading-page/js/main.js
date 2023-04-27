@@ -169,7 +169,8 @@ const defaultAttributes = {
     autoplay: true,
     controls: false,
     loop: true,
-    playsInline: true
+    playsInline: true,
+    muted: true
 }
 
 var instance = new vidbg('.video-background', 
