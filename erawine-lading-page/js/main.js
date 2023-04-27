@@ -167,24 +167,24 @@ $('.mute-video').click(() => {
     
 })
 
-const defaultAttributes = {
-    autoplay: true,
-  controls: false,
-  loop: true,
-  muted: true,
-  playsInline: true,
-}
+// const defaultAttributes = {
+//     autoplay: true,
+//   controls: false,
+//   loop: true,
+//   muted: true,
+//   playsInline: true,
+// }
 
-var instance = new vidbg('.video-background', 
-{
-    mp4: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-awc.mp4',
-    // webm: 'media/webm_video.webm',
-    poster: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-cover.jpg',
+// var instance = new vidbg('.video-background', 
+// {
+//     mp4: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-awc.mp4',
+//     // webm: 'media/webm_video.webm',
+//     poster: 'https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-cover.jpg',
     
-},
-defaultAttributes
-)
-instance.playVideo();
+// },
+// defaultAttributes
+// )
+// instance.playVideo();
 
 const stopVideo = document.querySelector('.stop-video');
 stopVideo.addEventListener('click', () => {
