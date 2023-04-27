@@ -146,25 +146,56 @@ header .navbar .navbar__form div {
     text-align: right;
 }
 
-header .navbar .navbar__form select {
-    display: inline-block;
+header .navbar .navbar__form .dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
     border: none;
     background-color: transparent;
     color: #fff;
+    margin-top: 0;
+    font-family: 'FuturaTOT', sans-serif;
+    font-weight: 400;
 }
 
-header .navbar .navbar__form select option {
-    display: inline-block;
-    border: none;
-    background-color: #000;
+header .navbar .navbar__form .dropdown-button span {
+    font-family: 'FuturaTOT', sans-serif;
+    font-weight: 400;
+}
+
+header .navbar .navbar__form .dropdown-button img {
+    width: 8px;
+    transform: rotate(90deg);
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    right: 0;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* .dropdown:hover .dropdown-options {
+    display: block;
+} */
+
+.dropdown-options a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #fff;
     color: #fff;
 }
 
-header .navbar .navbar__form select option:focus {
-    display: inline-block;
-    border: none;
-    background-color: #c4c4c4;
-    color: #fff;
+.dropdown-options a:hover {
+    color: #0a0a23;
+    background-color: #ddd;
 }
 
 header .navbar .navbar__form button {

@@ -71,15 +71,17 @@ for (i = 0; i < acc.length; i++) {
 let spanEN = document.querySelectorAll("[lang='en']")
 
 $(spanEN).hide();
-$("#languageSelect").change(function() {
-    if ($(this).val() === "EN") {
+$(".dropdown-options a").click(function() {
+    const selectedLang = $(this).attr('data-lang');
+    
+    if (selectedLang === "en") {
         $('[lang="en"]').toggle();
         $('[lang="cz"]').toggle();
 
         // TODO Fix bug in slider when switching language
         stateSidebar();
     }
-    if ($(this).val() === "CZ") {
+    if (selectedLang === "cz") {
         $('[lang="en"]').toggle();
         $('[lang="cz"]').toggle();
         stateSidebar();
@@ -199,3 +201,36 @@ stopVideo.addEventListener('click', () => {
         $(".play__icon").show();
       }
 })
+
+
+
+const dropdownButton = document.querySelector('.dropdown-button');
+const dropdownButtonImg = document.querySelector('.dropdown-button img');
+const dropdownButtonSpan = document.querySelector('.dropdown-button span');
+const dropdownOptions = document.querySelectorAll('.dropdown-options a');
+
+// Set default language to CZ
+
+
+dropdownOptions.forEach(option => {
+    option.addEventListener('click', function (event) {
+        event.preventDefault();
+        activeLang = option.getAttribute('data-lang');
+        dropdownButtonSpan.textContent = activeLang.toUpperCase();
+
+        const dropdownOptions = document.querySelector('.dropdown-options');
+        dropdownOptions.style.display = 'none';
+        dropdownButtonImg.style.transform = "rotate(90deg)";
+    });
+});
+
+dropdownButton.addEventListener('click', function () {
+    const dropdownOptions = document.querySelector('.dropdown-options');
+    if (dropdownOptions.style.display != 'block') {
+        dropdownOptions.style.display = 'block';
+        dropdownButtonImg.style.transform = "rotate(270deg)";
+    } else {
+        dropdownOptions.style.display = 'none';
+        dropdownButtonImg.style.transform = "rotate(90deg)";
+    }
+});
