@@ -152,6 +152,8 @@ sliderPrev.addEventListener('click', () => {
     })
 });
 
+$("video").prop('muted', true);
+
 $('.mute-video').click(() => {
     if ($("video").prop('muted')) {
         $("video").prop('muted', false);
@@ -167,10 +169,10 @@ $('.mute-video').click(() => {
 
 const defaultAttributes = {
     autoplay: true,
-    controls: false,
-    loop: true,
-    playsInline: true,
-    muted: true
+  controls: false,
+  loop: true,
+  muted: true,
+  playsInline: true,
 }
 
 var instance = new vidbg('.video-background', 
