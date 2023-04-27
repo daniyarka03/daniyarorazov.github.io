@@ -17,6 +17,8 @@
         <video id="myVideo"
             src="https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-awc.mp4" autoplay loop
             playsinline muted></video>
+        <img class="background-image__cover"
+            src="https://ambassadorwineclub.cz/wp-content/themes/awcerawine/img/background-video-cover.jpg" alt="">
 
         <nav class="navbar">
             <div class="navbar__content">
@@ -836,6 +838,36 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Get the video and image elements
+        const image = document.getElementsByClassName('background-image__cover');
+
+        // Check if the video is loaded
+
+
+        const intervalVideo = setInterval(() => {
+            video.addEventListener('canplaythrough', loadedVideo);
+            video.play()
+            console.log('interval')
+            clearInterval(intervalVideo)
+        }, 1000);
+
+        function loadedVideo() {
+            // Hide the image and show the video
+            $(image).hide()
+            console.log('Loaded')
+            clearInterval(intervalVideo)
+        }
+
+        video.addEventListener('play', () => {
+            $(image).css("display", "none")
+        });
+
+        // Add event listener to show the background image when the video is paused
+        video.addEventListener('pause', () => {
+            $(image).css("display", "none")
+        });
+    </script>
 </body>
 
 </html>

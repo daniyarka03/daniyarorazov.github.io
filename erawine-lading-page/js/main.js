@@ -187,14 +187,15 @@ $('.mute-video').click(() => {
 // instance.playVideo();
 
 const stopVideo = document.querySelector('.stop-video');
+const video = document.querySelector('#myVideo');
 stopVideo.addEventListener('click', () => {
-    if (instance.isVideoPlaying()) {
-        instance.pauseVideo();
-        $(".stop__icon").hide();
-        $(".play__icon").show();
-    } else {
-        instance.playVideo();
+    if (video.paused) {
+        video.play();
         $(".play__icon").hide();
         $(".stop__icon").show();
-    }
+      } else {
+        video.pause();
+        $(".stop__icon").hide();
+        $(".play__icon").show();
+      }
 })
